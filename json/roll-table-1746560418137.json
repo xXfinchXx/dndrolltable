@@ -1,0 +1,1408 @@
+{
+  "name": "Path of Wild Magic Surge",
+  "description": "",
+  "formula": "1d100",
+  "results": [
+    {
+      "text": "You Explode, A Fireball centered on you detonates as per the spell. You are set on fire as a result of this explosion and take 1d6 fire damage at the start of each of your turns until rage ends.",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "For the duration of your rage, when a creature within 60ft of you takes damage, all creatures within 60ft take the same amount of damage",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A 30 ft cube of Ice materializes centered on you. Creatures caught within begin suffocating and take 1d6 cold damage at the start of their turn. The Cube has an AC of 5 and 5x your con mod hit points",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A black hole opens in your chest for the duration of your rage. All creatures within 60 ft must make a strength saving throw or be pulled towards you 30 ft. at the start of their turns. You must make a Dex save or take 1d10 bludgeoning damage when you are struck by these creatures.",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Hundreds of arms grow out of your back and grapple all creatures within 15ft at the start of your turn using your athletics modifier. They do so for the duration of your rage.",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your body begins emanating inky magical darkness for the duration of your rage. All creatures within 10 ft of you are blinded",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Animated chains rise out of the floor, everyone within 30ft. centered on you must make a Strength Saving Throw or be Restrained by the chains until your rage ends. A creature Restrained by the chains can use its action to make a Strength Check. On a success, it frees itself.",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "For the duration of your Rage the floor within 6oft. of you turns to knee deep custard, any creature that did not move at least 10 ft. on its turn is Restrained and must make a Strength Saving Throw to move again.",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your maximum hit points is how many Hit Points of oreatures this akility can affect. When you rage, Creatures starting with you and then within 20ft. are affected in ascending order of their current Hit Points (ignoring Unconscious creatures). Starting with the creature that has the lowest current Hit Points, each creature affected by this ability falls Unconscious until the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's Hit Points from the total before Moving On to the creature with the next lowest Hit Points. A creature's Hit Points must ke equal to or less than the remaining total for that creature to be affected.",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you Rage, ball bearings spill out of your clothing within a 60ft. Radius, each creature standing in its area must succeed on a Dexterity saving throw or fall prone.",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You are reduced to a child for the duration of your Rage; your Speed, Damage, and Armor class are halved, and all checks are made at Disadvantage.",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your bones vanish for the duration of your rage, you are immune to Bludgeoning damage but automatically fail all Strength Checks. Your Speed is halved.",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You become grotesquely fat for the duration of your rage; you are immune to Piercing damage but automatically fail all Dexterity checks. Your Speed is halved.",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You turn into translucent jelly for the duration of your rage, you are immune to Slashing damage but automatically fail any Constitution checks. Your Speed is halved.",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your legs are replaced by a slugs foot for the duration of your rage, your Speed is reduced to 10 £t and your gain the Spider Climb ability.",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your arms are replaced by fins for the duration of your Rage, you can not hold a weapon and gain a Swim Speed equal to double your walking Speed.",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You sprout one giant wing from your back for the duration of your Rage, as a bonus action you can make a Wing Buffet attack using your Strength and Proficiency, that deals 1d6 + your strength Bludgeoning damage and pushes your opponent back 5ft, but you must make a Strength Saving Throw of DC 10+ the damage or be knocked prone by the force of the flap.",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow gills for the duration of your rage, lose the ability to breath air and gain Water Breathing, you can also spit a 10 £t Cone of viscous goo as a Bonus Action, Creatures caught in the cone must make a Dexterity Saving Throw or take 4d4 acid damage.",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your eyes are replaced with compound eyes for the duration of your Rage, you can not ke Flanked and you have advantage on all Perception checks that rely on sight.",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow a second head for the duration of your Rage gaining Advantage on Intelligence and Wisdom Saving Throws as well as Perception checks, but creatures attacking you Critical Hit range is doubled.",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "For the duration of your Rage, all Creatures that start their turn withing 60ft. of you randomly switch places with another Creature within the same Radius.",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging, the ground around you for 20ft. becomes semi-fluid like a waterbed while the air bends and shifts, it is considered Difficult Terrain.",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "If you are raging, at the start of your turn roll a d6 to determine direction and a d6 to determine distance in squares, at that location a 5 £t pool of lava opens up and they all remain until 1d6 Rounds after your Rage ends.",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you Rage, 5ft. square pieces of Green Slime are created equal to your Constitution Modifier and equally space about in a 60ft. area in an unoccupied space.",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you rage a 30ft. Radius snowstorm centered on you whips up, each creature apart from you in that area must make a DC 10 Constitution saving throw or take 1 point of Exhaustion. Perception Checks and Attacks have Disadvantage in the area. The storm persists one turn after your Rage ends.",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A 60ft. cube of water is summoned centered on you that does not spill and exists for (1 + Con Mod) minutes.",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you rage gravity within 120ft. of you is turned 90 degrees in a random direction until your rage ends.",
+      "range": [
+        27,
+        27
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you rage all sound ceases in a 20ft. Radius centered on you for the duration of your Rage.",
+      "range": [
+        28,
+        28
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you Rage all Creatures within 60ft. legs are replaced with the hottom of chess pieces and can only move like those pieces. This affect end when your Rage ends.",
+      "range": [
+        29,
+        29
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A dimensional tear to the astral sea opens within 30ft. Radius of you for the duration of your Rage, creatures that enter the zone lose all movement and gain a hover speed of ten times their intelligence modifier (minimum 10£t.).",
+      "range": [
+        30,
+        30
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While your Raging, Creatures you cut bleed money equal to the damage you deal in silver pieces.",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While Raging, as a Bonus Action, you can make a Gaze Ranged Attack using your Constitution Modifier and Proficiency Bonus, if you hit you can alter the cut, style and color of the clothes of the target.",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging, the light within 20ft. takes on a deep red hue and a choir stars singing, you have Advantage on Intimidation checks.",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging you can summon custard pies out of thin air and make a Proficient Ranged Attack, if you hit the creature had Disadvantage on Charisma checks for 1d4 minutes.",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you Rage actively fighting creatures are randomly attached together in pairs until no more pairs can be made, they are attached by phantom rubber bands that pull them 5ft. closer to each other each at the start of their turns and will not allow them to be more than 20 ft. apart without violently yanking them back until the Rage ends.",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Por the Duration of your Rage, each Action you take is accompanied by musical cue's and cartoon sound effects that can be heard up to 60ft. away.",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your Weapon becomes Sentient for the duration of your Rage, it has an Int, Wis and Cha score equal to your own and can speak out loud as well as has Hearing and normal vision to 30 ft.",
+      "range": [
+        37,
+        37
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "For the duration of your Rage any Mundane Object your mime to have about your person functions as if it exists.",
+      "range": [
+        38,
+        38
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging, you may cast the Cutting Words cantrip,",
+      "range": [
+        39,
+        39
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "During your Rage, as an Action you can summon a cow to drop from the sky, the target needs to make a Dexterity Saving Throw or take 2d10 Bludgeoning Damage and be knocked Prone.",
+      "range": [
+        40,
+        40
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your legs turn into springs for the duration of your Rage, and you can jump in any direction up to your full Movement.",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your arms kecome long noodles for the duration of your Rage and your Reach increases 5ft.",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your head swells up like a balloon for the duration of your Rage and you gain a Hover speed of half your walking speed and are immune to Prone.",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your hair grows and becomes prehensile for the duration of your Rage, you can use it to make Grapple checks as a Bonus Action with a Range of 10ft.",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your kody grows quills for the duration of your Rage that you can make a Proficient Ranged Attack with a Range 30/60ft, if they hit they deal 146 + Dex and the target needs to make a Constitution saving throw or he Poisoned.",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your insides kecome mechanical; you kecome immune to Charmed, Exhaustion, Frightened, Paralyzed, Petrified and Poisoned but cannot be healed, only mended until your Rage ends.",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While Raging your torso can spin like a propeller allowing you to make a single Attack against all targets within 5ft as an Action.",
+      "range": [
+        47,
+        47
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your nose enlarges and your mucus becomes sticky and elasticated while you Rage, as a Bonus Action you can sneeze a wehk of gunge at a target with a Proficient Ranged Attack, 40/120 £t. If it hits the target is Restrained by the gunge. As an Action, the Restrained target can make a Strength check, bursting the gunge on a success. The gunge can also ke Attacked and Destroyed (AC 12; hp 1omimmunity to Bludgeoning, Poison, and Psychic Damage).",
+      "range": [
+        48,
+        48
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your body melts and becomes bright pink gunge while you Rage, you are considered Amorphous, able to move through spaces 1 inch wide without Squeezing. You are immune to Grappling and Prone.",
+      "range": [
+        49,
+        49
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging, your hody grows bkattlements and arrow slits as well as an army of tiny soldiers. On initiative count 20 the soldiers inside fire two tiny catapults at your enemies (Your Proficient Ranged Attack/40ft 1d6 + Proficiency Bonus) and shoot a volley of arrows (10ft. Cone, 144 X your Proficiency Bonus Piercing, Dexterity Saving Throw for half).",
+      "range": [
+        50,
+        50
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "As a Bonus action while Raging, you can magically create an armed Hunting Trap at any location you can see.",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging you can create an infinite amount of Silk Rope By pulling it out of your sleeve. Either 20 ft. as a bonus action or 40ft. as a Standard Action.",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "As long as you are Raging, you can create energy axes as a Pree Action that last one Round and functions as a Hand Axe +1 that deals Radiant damage.",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "At the start of each of your Turns as a bonus action, while you are Raging, you can create a ball from the Grey Bag of Tricks.",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "As you Rage, your mouth opens and you vomit a stream of 1d4 x 10 gems, each worth 1 gp, in a Line 30 feet long and 5 feet wide. Each gem deals 1 Bludgeoning Damage, and the total Damage of the gems is divided equally among all Creatures in the line.",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "As a Bonus action while you are Raging you can shoot a Swarm of Insects out of your eyes into an adjacent 5ft. square. You do not control the created Swarms.",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your weapon gains the Dancing Quality for the duration of your Rage; it begins to hover, flies up to 30ft., and Attacks one Creature of your choice within 5£4. of it. The sword uses your Attack roll and Ability score modifier to Damage Rolls. While it hovers, you can use a Bonus Action to cause it to fly up to 30ft. to another spot within 30ft. of you. As part of the same Bonus Action, you can cause the sword to Attack one creature within 5ft. of it. After it for the fourth time, it flies up to 30ft. and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. If it has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or move more than 30 feet away from it.",
+      "range": [
+        57,
+        57
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While your Rage persists, at the start of each of your turns &amp; Melf's Minute Meteor is summoned into being around you under your control.",
+      "range": [
+        58,
+        58
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you Rage a Tiny Fey being is summoned into existence on your shoulder that shouts encouragement and grants you a d6 Inspiration die if you don't have one. The being exists for 1d8 Turns.",
+      "range": [
+        59,
+        59
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A Unicorn materializes to aid you for 1D8 Turns.",
+      "range": [
+        60,
+        60
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your body emits a thick cloud of bubbles in a 10ft. radius. People other than you caught in the cloud have Disadvantage on Attack rolls and Resistance to Fire.",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "As you Rage you emit a 30ft. Radius cloud of fog that grants Full Cover to everything within it.",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While Raging you emit a flaming aura, whenever a Creature starts their turn within 10ft. of you, they take 1d6 Fire Damage. You also have Resistance to Cold.",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A shower of glitter rains down around you in a 10ft. radius while you Rage, all Creatures entering the Radius for the first time in a turn, must make a Dexterity Saving Throw or are outlined by the glitter and Attacks against them have Advantage for 1d4 Turns.",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The sound of soothing music emits from your body while you Rage, the effect of Fear effects are Suppressed on Creatures within 10ft. of you.",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Until your Rage ends, soft feathers drift around you in a 10ft. radius, everyone inside the radius has Resistance to Bludgeoning, Slashing and Piercing.",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "For the duration of your Rage, a cloud of luminous fairies swarms around within a 20ft. Radius, all Creatures except you that enter the space for the first time on a turn regain 1d8 Hit Points.",
+      "range": [
+        67,
+        67
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You emit an aura of sparkling pink hearts, Creatures that start their turn within 10ft. of you must make a Charisma Saving Throw or be Charmed by you.",
+      "range": [
+        68,
+        68
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The air around you crackles with lightning and you have Resistance to Lightning, as a Reaction you can make a Proficient Ranged Spell Attack at a Creature within 20ft., on a hit you deal 1d6 + Proficiency Bonus Lightning Damage, if it is wearing metal Armor it takes an additional 1d6 Lightning.",
+      "range": [
+        69,
+        69
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Blades begin spinning in a 10ft. Radius around you as part of your Rage, Creatures that start their turn there take 2d6 + Proficiency Bonus Slashing Damage. As a Reaction you can parry a strike adding +2 to your AC.",
+      "range": [
+        70,
+        70
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You regain all your uses of Bolstering Magic.",
+      "range": [
+        71,
+        71
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You have Magic Resistance while you Rage.",
+      "range": [
+        72,
+        72
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever a Creature hits you with an Attack Roll before your Rage ends, that Creature takes 1d6 Force damage, as magic lashes out in retribution.",
+      "range": [
+        73,
+        73
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Any creature you kill while Raging is Petrified instead.",
+      "range": [
+        74,
+        74
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While Raging any creature you kill turns to a gold statue worth Its CR X 100 Gold.",
+      "range": [
+        75,
+        75
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you are Raging if you strike with Melee Strike, you can cast Dispel Magic on the target as a Bonus Action.",
+      "range": [
+        76,
+        76
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You cast Armor of Agathys on yourself as a Warlock of the same level.",
+      "range": [
+        77,
+        77
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You are infused with positive energy: While Raging, the first time you would drop to 0 hit points as a result of taking damage you drop to 1 hit point instead. If you are subjected to an effect that would kill you instantaneously without dealing damage, that effect is instead negated against the target.",
+      "range": [
+        78,
+        78
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When you Rage, you turn Invisible until you Attack or Casts a Spell.",
+      "range": [
+        79,
+        79
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You can step on air as if it is a solid surface while you Rage.",
+      "range": [
+        80,
+        80
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Instead of Raging you Wild Shape as a Circle of the Moon Druid of the same level.",
+      "range": [
+        81,
+        81
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow spines like a porcupine, any creature Grappled or Grappling you take 146 Piercing damage.",
+      "range": [
+        82,
+        82
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow a Star-nosed mole's nose and gain Tremor Sense 120 ft until your Rage ends.",
+      "range": [
+        83,
+        83
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow four giant spider legs and gain the Spider Climk ability, you also have advantage on Athletics checks and Saving Throws against Prone until your Rage ends.",
+      "range": [
+        84,
+        84
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While your Raging, if you have Grappled someone, you can make a second Grapple check to swallow them. You an swallow one medium or smaller creature, While they are swallowed there are restrained and take 1d8 Acid and 148 Bludgeoning damage at the start of their turn, if your Rage ends or they deal more than 20 damage to you in a turn, you vomit them back out.",
+      "range": [
+        85,
+        85
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your hands become Crab Claws that make Proficient Melee Attacks that deal 2d8 + Str and automatically Grapple the target if they are Medium or smaller.",
+      "range": [
+        86,
+        86
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While Raging, you grow four tentacles round your mouth, As a Standard Action you can make Proficient Melee Attacks equal to your Proficiency Bonus with these tentacles as a Bonus Action and they deal 1d6 + Int bonus Psychic damage.",
+      "range": [
+        87,
+        87
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your skeleton becomes adamantium and you become immune to Critical Hits until your Rage ends.",
+      "range": [
+        88,
+        88
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Gain the ability to create an Echo of yourself as if you were an Echo Knight",
+      "range": [
+        89,
+        89
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow two additional arms for the duration of your Rage that can wield a weapon between them and can make an extra attack as a Bonus action.",
+      "range": [
+        90,
+        90
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your head transforms into a Red Dragons head, you can make a 15ft cone breath weapon attack (Recharge on a 6) that deals 1d6 X Proficiency Bonus fire damage. Half on a successful Dexterity Save.",
+      "range": [
+        91,
+        91
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow Feathered wings for as long as you're Raging that allow you to fly at 30ft, as a Reaction you can close around you and half the damage from a single attack or spell.",
+      "range": [
+        92,
+        92
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You grow Bat wings for as long as you're raging that allow you to fly at 30ft, as a Reaction if you are struck you can move up to 30ft. without provoking an Attack of opportunity.",
+      "range": [
+        93,
+        93
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "While you're Raging you gain 'once per day Counter Spell'",
+      "range": [
+        94,
+        94
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You fire a Lightning Bolt out of your eyes as per the spell.",
+      "range": [
+        95,
+        95
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Your weapon becomes an energy weapon that makes a loud humming noise and deals an additional 2d6 Radiant damage until your Rage ends.",
+      "range": [
+        96,
+        96
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "s long as your Rage lasts you can Teleport 60ft. to a space you can see as a Bonus Action.",
+      "range": [
+        97,
+        97
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Creatures up to your Constitution modifier of your choice gain Truesight for the duration of your Rage.",
+      "range": [
+        98,
+        98
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You cast Magic Missiles at the highest level possible for a Wizard of the same level",
+      "range": [
+        99,
+        99
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "You are surrounded by a burning golden aura while you Rage. Your Strength, Constitution and Dexterity modifier, as well as your Speed, is doubled for the duration of your Rage. You gain 1d412- your Constitution modifier in Hit Points at the start of your turn.",
+      "range": [
+        100,
+        100
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    }
+  ],
+  "_id": "roll-table-1746560418137"
+}

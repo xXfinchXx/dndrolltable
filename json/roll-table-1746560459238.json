@@ -1,0 +1,3228 @@
+{
+  "name": "Player Number Roll Table",
+  "description": "",
+  "formula": "1d230",
+  "results": [
+    {
+      "text": "The player’s eyes are now between their nose and their mouth.",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "1d4 pounds of cooked spaghetti appear in the player’s pockets.",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Bubbles comes out of the player’s mouth when they speak. Their voice can be heard only when the bubbles pop.",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target’s height is reduced by 1d12 inches while the player gets taller by the same amount.",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Harmless snow falls in a 30 foot radius around the player for 1d10 hours",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target and the player swap places.",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player casts this spell again they instantly get uncomfortably sweaty.",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s clothes teleport 5 foot to the left of them, cleaned and neatly folded.",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Jazz music starts to play when the player wiggles their fingers in a \"jazz hands\" motion.",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player casts lightning bolt on them-self. The bolt comes from above them as if they were struck by lightning.",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player sneezes it makes a thunder sound that can be heard in a 300 feet radius.",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player instantly falls asleep and can only be awakened by taking damage or if a creature takes its action to wake them up.",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A hot cup of coffee appears in the hands of everyone in a 60 foot radius.",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player disgorges a random rare magical weapon.",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A 10 foot large 50 foot deep rift forms on the ground along the way between the player and its target.",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All creatures in the area where the rift appears must make a dexterity saving throw against the player’s save DC or fall into it.",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s head is now a floating flaming skull.",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A kangaroo-like skin pouch that can serve as a bag of holding suddenly grows on the player’s belly.",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "player’s nose grows a quarter inch whenever they tell a lie.",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "player’s shadow now always appear to be dancing.",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The moon in the sky now glows green.",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is now articulated like a wooden puppet.",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Torrential rain falls in a 60 foot radius around the player, extinguishing open flames in the area and making it lightly obscured... And wet. The rain stops after 1d6 rounds.",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is suddenly blackout drunk.",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Each time the player climbs stairs there is a 5 percent chance that they magically rearrange to form a slippery slide just before they get to the top.",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A mustachioed evil twin of the player, who is now aware of their twin, appears somewhere in the world. It’s goal is to kill and replace the player.",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Snakes come out of the player’s mouth whenever they yawn.",
+      "range": [
+        27,
+        27
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player forgets a random spell, it is replaced by another random spell of the same level from their spell list.",
+      "range": [
+        28,
+        28
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest tree awakens, enthusiastically thanks the player then runs away to enjoy its newfound freedom.",
+      "range": [
+        29,
+        29
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When the player closes their eyes their skin turns all shades of purple.",
+      "range": [
+        30,
+        30
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A set of polyhedral dice appear in the player’s hands.",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s body hair grow 1d12 inches long.",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A band of mariachis appears in unoccupied spaces near the player, they play a song giving the player one inspiration that they can use to reroll one d20 in the next minute.",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A barrage of harmless lasers come out of the tip of the player’s finger whenever they say \"pew pew\".",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Everyone in a 60 foot radius is now covered in peanut butter, to the delight of any nearby squirrel.",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "One of the player’s hand can now detach from it’s body and act as a crawling claw that the player controls. If it takes damage, the damage is taken by the player as if the hand was still attached.",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Target becomes an awkward teenage version of them-self, retaining all of their knowledge and abilities.",
+      "range": [
+        37,
+        37
+      ],
+      "weight": 1,
+      "drawn": true,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is now a perfect copy of a random party member.",
+      "range": [
+        38,
+        38
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A tiny trapdoor opens in the player’s chest revealing a surprised little creature identical to the player, only smaller. It seems to be piloting the player. It quickly closes the door, sealing it shut.",
+      "range": [
+        39,
+        39
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target is transformed into a thousand gold pieces with the player’s face minted on it.",
+      "range": [
+        40,
+        40
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Steam come out of the player’s nostrils and ears whenever they get angry.",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Ominous music fills the air whenever someone pronounces the player’s name.",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A laugh track coming from seemingly nowhere can be heard whenever the player does or says something humorous or is in a funny situation.",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Next time the player targets an hostile creature with a spell, the enemy is polymorphed into a coyote and an anvil falls from the sky on its head.",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is propulsed 30 foot in a random direction.",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s hand are now inverted, meaning that their palms are now on the backside of their hands.",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player feels the urge to lay an egg, it comes out of them within 10 minutes, pulsing with weird light patterns. What is in the egg, if anything, is a the DM’s discretion.",
+      "range": [
+        47,
+        47
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is rumored to actually be two gnomes in a trench coat.",
+      "range": [
+        48,
+        48
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s nose starts bleeding whenever an orc is near. The nearer the orc is, the more intense the nosebleed is.",
+      "range": [
+        49,
+        49
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is instantly encased in a cube of jelly.",
+      "range": [
+        50,
+        50
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s face is transformed into a fruit arrangement made to resemble the player.",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Next time the player falls asleep they teleport back to this location.",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All paintings in a 5 miles radius are now a signed portrait of the player.",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is affected by an enlarge spell for 10 minutes while all creatures in a 30 foot radius are affected by a reduce spell for the same amount of time.",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is turned into a potted plant until the end of their next turn thinking to them-self \"not again...\"",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player instantly grows a beard of living bees giving it advantage on intimidation checks but disadvantage on persuasion.",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player changes race as if they were targeted by a reincarnate spell.",
+      "range": [
+        57,
+        57
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Everything in a one mile radius is now covered in an excessive amount of glitter.",
+      "range": [
+        58,
+        58
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player thinks it is a doppelganger that lost its ability to shape shift.",
+      "range": [
+        59,
+        59
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s voice echoes and sparkles glisten around them whenever they say the word \"magic\".",
+      "range": [
+        60,
+        60
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s mouth moves to a random place on their body.",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The floor in all unoccupied spaces in a 15 foot radius around the player is now hot lava.",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s head is surrounded by a little cloud until the next rainfall, giving them disadvantage on perception checks relying on sight. Their head is literally in the clouds",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player loses any attunement to magical items in their possession obligating them to restart the attunement process to use these items.",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All maps in a 25 miles radius now show in real time the position of the player with a small marker. If the player is not in the area that the map represents the marker is on the edge of the map in the direction of where they would be.",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The visibility of light and dark become reversed for the player. Darkness is bright as day and day is dark as night.",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Every creature slain within 20 feet of the player for the next 1d4 weeks animates and begins burying itself immediately upon dying.",
+      "range": [
+        67,
+        67
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "4d20 trees within 1 mile of the player begin producing nonmagical items as fruit.",
+      "range": [
+        68,
+        68
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s legs double in length and their torso shrinks to half its size.",
+      "range": [
+        69,
+        69
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All treasure carried by the player becomes sentient, sprouts tiny arms and legs, and tries to escape from them.",
+      "range": [
+        70,
+        70
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Every cricket within 10 miles of the player no longer makes a chirping sound when rubbing their legs together, and instead makes the sound of screaming.",
+      "range": [
+        71,
+        71
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All foods and drinks the player eat become either freezing cold or burning hot.",
+      "range": [
+        72,
+        72
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Horses within 100 miles of the player all vanish and are replaced with wheel barrows.",
+      "range": [
+        73,
+        73
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Nearest squirrel gains sentience, an Intelligence score of 24, knows and can speak Deep Speech, and becomes obsessed with the player.",
+      "range": [
+        74,
+        74
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player becomes incredibly aroused by the next person they see. This continues to occur for the next 1d10 days.",
+      "range": [
+        75,
+        75
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "For the next 1d4 weeks, the clouds in the sky all appear to look like the player in various embarrassing situations (i.e. beaten up by kobolds, sitting on a latrine, etc.)",
+      "range": [
+        76,
+        76
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A random party member or the player themselves has their hands and feet become detachable.",
+      "range": [
+        77,
+        77
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The ground beneath the player’s feat rises rapidly 30 feet into air.",
+      "range": [
+        78,
+        78
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is compelled to repeat the last word of each sentence they speak twice.",
+      "range": [
+        79,
+        79
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The next person the player touches will have their face flipped upside down.",
+      "range": [
+        80,
+        80
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Fish within 1,000 miles of the player gainthe ability to breath air and swim through the air like they would the water.",
+      "range": [
+        81,
+        81
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "player no longer is able to speak. Instead, when they try to talk, clouds of letters float from their mouth to form the words they wish to say.",
+      "range": [
+        82,
+        82
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player falls asleep, gravity stops affecting their body.",
+      "range": [
+        83,
+        83
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Objects that weight less than twenty pounds now feel as though they weight ten times as much to the player.",
+      "range": [
+        84,
+        84
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s clothing becomes filled with 1d100 ladybugs.",
+      "range": [
+        85,
+        85
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All weapons within 50 feet of the player appear to be normal, but when striking a creature take on the properties of harmless plastic foam.",
+      "range": [
+        86,
+        86
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All non-magical clothing within 50 feet of the player turns to smoke.",
+      "range": [
+        87,
+        87
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player grows two extra mouths, one under each armpit.",
+      "range": [
+        88,
+        88
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The contents of the nearest lake is teleported 20 feet above the party.",
+      "range": [
+        89,
+        89
+      ],
+      "weight": 1,
+      "drawn": true,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest paladin believes the player to secretly be a lich.",
+      "range": [
+        90,
+        90
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "When the player defecates, it glows and emits a low humming sound.",
+      "range": [
+        91,
+        91
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Everyone within 2 miles of the player can only speak backwards for the next 1d4 days.",
+      "range": [
+        92,
+        92
+      ],
+      "weight": 1,
+      "drawn": true,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player lays a clutch of eggs during the next extended rest. What hatches follow the player around and treats them as their mother.",
+      "range": [
+        93,
+        93
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player smells unique to those around him. Those around him each smell their least favorite smell.",
+      "range": [
+        94,
+        94
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "player’s fingers and toes randomly shuffle their placements.",
+      "range": [
+        95,
+        95
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "People of the nearest town develop an intense hatred of adventurers of a random class present in the party.",
+      "range": [
+        96,
+        96
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A random item within 50 feet of the party ignites each morning at sunrise.",
+      "range": [
+        97,
+        97
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Everyone the player sees appears to be either twice their age or half their age.",
+      "range": [
+        98,
+        98
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The weather and temperature within 10 miles of the player becomes permanently stuck as the current weather and temperature occurring there.",
+      "range": [
+        99,
+        99
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Each NPC the party meets for the next 1d6 days has a 50% chance to be an illusion created by the wild magic surge.",
+      "range": [
+        100,
+        100
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s hair grows 10’.",
+      "range": [
+        101,
+        101
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All women within 5 miles of the player instantly grow thick beards.",
+      "range": [
+        102,
+        102
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player now salivates mead.",
+      "range": [
+        103,
+        103
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player lies, a lit candle tumbles from their mouth.",
+      "range": [
+        104,
+        104
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Every day for 1d6 weeks, a member of the party is mysteriously tripped by an unseen force each day and hears cackling laughter that only they can hear.",
+      "range": [
+        105,
+        105
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player can now communicate conversationally with ducks.",
+      "range": [
+        106,
+        106
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The next NPC the player touches turns into a swarm of bees for 24 hours.",
+      "range": [
+        107,
+        107
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is instantly teleported back to where they stood two minutes ago.",
+      "range": [
+        108,
+        108
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player coughs, sniffs, or makes some other simple auditory bodily function, it booms and echoes loudly.",
+      "range": [
+        109,
+        109
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All plant life within 20 feet of the player immediately grows by 4’.",
+      "range": [
+        110,
+        110
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "player gains the ability to walk on water, but only for the first six steps.",
+      "range": [
+        111,
+        111
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s eyeballs disappear and reappear each time that they blink.",
+      "range": [
+        112,
+        112
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest large body of water is turned to pudding.",
+      "range": [
+        113,
+        113
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A large, metal statue of the player falls from the sky.",
+      "range": [
+        114,
+        114
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest town’s inhabitants are all transformed into chickens, but are all in denial of this fact and continue about their business as normal.",
+      "range": [
+        115,
+        115
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player turns invisible whenever no one is watching them.",
+      "range": [
+        116,
+        116
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Tiny spectral birds fly and sing around the player’s head whenever they are unconscious.",
+      "range": [
+        117,
+        117
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s shadow is now that of a dragon.",
+      "range": [
+        118,
+        118
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player casts Otto’s Irresistible Dance on each creature in a 30 foot radius centered on themself.",
+      "range": [
+        119,
+        119
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Leaves fly out of the player’s head whenever there is a strong wind or when the player runs. Leaving a trail of leaves if they are not picked up.",
+      "range": [
+        120,
+        120
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player hears an otherworldly voice narrating everything they do.",
+      "range": [
+        121,
+        121
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Eyes sprout on the back of the player’s head. If not covered, the player gains advantage on perception checks relying on sight but disadvantage on persuasion checks. Having eyes in the back of your head is useful, but freaky.",
+      "range": [
+        122,
+        122
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is polymorphed into an owlbear for 1d10 minutes or until they drop to 0 hit points.",
+      "range": [
+        123,
+        123
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player thinks that this is all a game for some far away and abstract group of gods and that they are stuck in the game.",
+      "range": [
+        124,
+        124
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s legs shrink to half their size, reducing their speed by 5 feet.",
+      "range": [
+        125,
+        125
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s spell focus is propulsed 60 foot away from them in a random direction. Any creature in the way must make a dexterity saving throw against the player’s spell DC or get hit by it and take 1d6 bludgeoning damage per 10 feet traveled by the focus.",
+      "range": [
+        126,
+        126
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A piece of the player’s clothing turn out to be a mimic and it suddenly feels hungry.",
+      "range": [
+        127,
+        127
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "An angry looking wild goose appears and follows the player around. If they run, the goose chases the player, turning the situation into a literal wild goose chase.",
+      "range": [
+        128,
+        128
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player casts flesh to stone on themself.",
+      "range": [
+        129,
+        129
+      ],
+      "weight": 1,
+      "drawn": true,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player fails an attack roll or saving throw a sergeant of the guards appears and screams at them to motivate them. It’s a wild magic sarge!",
+      "range": [
+        130,
+        130
+      ],
+      "weight": 1,
+      "drawn": true,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The leader of the nearest settlement falls deeply in love with the player, obsessing over them.",
+      "range": [
+        131,
+        131
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player develops goblinophobia or, as you may call it, a crippling fear of goblins.",
+      "range": [
+        132,
+        132
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is rumored to actually be a swarm of ants that took a humanoid shape..",
+      "range": [
+        133,
+        133
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player believes they will die the next time they sleep.",
+      "range": [
+        134,
+        134
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s hair turn into snakes. When in melee, the player can make them attack as a bonus action with +2 to hit. The attack deals 1d4 piercing damage and +1d4 poison.",
+      "range": [
+        135,
+        135
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest castle is now made of small plastic toy building brick.",
+      "range": [
+        136,
+        136
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player now looks like they were made of shadows and their shadow is colored and textured to look like they were the player.",
+      "range": [
+        137,
+        137
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is turned into an anime version of them-self.",
+      "range": [
+        138,
+        138
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Every non-magical weapons in a 60 foot radius are now made of plastic foam.",
+      "range": [
+        139,
+        139
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All gold pieces in a quarter mile radius animate and walk slowly towards the player. Once they have reached the player, they stop and become inanimate again.",
+      "range": [
+        140,
+        140
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s arms become invisible leaving their hands looking like they’re floating by themself.",
+      "range": [
+        141,
+        141
+      ],
+      "weight": 1,
+      "drawn": true,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The next door opened by the player leads to the elemental plane of fire.",
+      "range": [
+        142,
+        142
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Applause and cheers can be heard whenever the player enters a room as if they where a sitcom character.",
+      "range": [
+        143,
+        143
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whatever they do there is always a little bit of sand in each of the player’s pockets. If removed it magically reappears within one round.",
+      "range": [
+        144,
+        144
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Every 10 seconds for the next 70 seconds, the player disgorges a baby ferret in a different color of the raindow.",
+      "range": [
+        145,
+        145
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "One gem in the player’s possession animates and become a cuddly version of itself.",
+      "range": [
+        146,
+        146
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s arms become legs and their legs become arms.",
+      "range": [
+        147,
+        147
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player and the target recognize each other’s souls as long lost lovers from a past life.",
+      "range": [
+        148,
+        148
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All gold pieces within one mile faintly smell like cheese.",
+      "range": [
+        149,
+        149
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s voice now sound like ten different people saying the same thing at the same time.",
+      "range": [
+        150,
+        150
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Any food touched by the player is instantly turned into mashed broccoli.",
+      "range": [
+        151,
+        151
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Anyone wearing socks in a 60 foot radius around the player instantly loses one as it teleport to the elemental plane of socks. Well, this one socks...",
+      "range": [
+        152,
+        152
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target is teleported on top of the highest mountain in a 500 miles radius.",
+      "range": [
+        153,
+        153
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A flock of 2d6 giant eagles flies in, they do their best to take the target away to an unknown location.",
+      "range": [
+        154,
+        154
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player always feels like their about to sneeze but it never comes.",
+      "range": [
+        155,
+        155
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The next time they get on a horse the player and the horse fuse together and they become a centaur.",
+      "range": [
+        156,
+        156
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s shoes squeak whenever they make a step, giving them disadvantage on stealth checks in addition to being annoying.",
+      "range": [
+        157,
+        157
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The next room entered first by the player is covered in carpet from floor to cieling.",
+      "range": [
+        158,
+        158
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player gets hit by something the impact reverberates and makes them sound hollow.",
+      "range": [
+        159,
+        159
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All wood in a 30 foot radius around the player becomes soft and starts to melt like ice cream.",
+      "range": [
+        160,
+        160
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All gold in a quarter mile radius turns to copper.",
+      "range": [
+        161,
+        161
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Each time the player sees their reflection they must make a wisdom saving throw against their spell save DC or be charmed by their reflection for 1 minute. While charmed in this way the player’s speed becomes zero and they can’t take any action or reaction.",
+      "range": [
+        162,
+        162
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is suddenly very self conscious about the spell they just cast and can’t cast it again unless their friends avert their eyes.",
+      "range": [
+        163,
+        163
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "One of the player’s arms doubles in length but gets weaker, giving them an extra five foot of reach but disadvantage on melee attack rolls when using the extra reach.",
+      "range": [
+        164,
+        164
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player now has a beer tap containing 8 gallons of beer protruding from their bellybutton. It disappears once emptied. Now THAT’S a beer belly.",
+      "range": [
+        165,
+        165
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player casts haste on themself as blue spikes that makes them look like a hedgehog grow on their body. The spikes disappear once the spell stops. Gotta got fast!",
+      "range": [
+        166,
+        166
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Everything the player says is now written in quotes and signed by them in the sky in as if the player had cast skywrite with an unlimited amount of words.",
+      "range": [
+        167,
+        167
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is now pregnant with a baby goblin. It comes out fully formed in two weeks, however it can.",
+      "range": [
+        168,
+        168
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Whenever the player casts a spell their nose gets extremely snotty.",
+      "range": [
+        169,
+        169
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player gets a glimpse of the future, giving them advantage on attack rolls and saving throws for the next encounter.",
+      "range": [
+        170,
+        170
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Anytime the player touches wine it turns to water.",
+      "range": [
+        171,
+        171
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A short fanfare music can now be heard whenever the player survives an encounter.",
+      "range": [
+        172,
+        172
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A reproduction of the player’s face can now be seen when looking at the sun, it mimics the facial expressions of the player as they make them. If the player smiles, the face in the sun smiles, if they frown, it frowns too.",
+      "range": [
+        173,
+        173
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest extradimensional space such as a bag of holding, a Heward’s handy haversack or a portable hole is instantly filled with salt. The salt comes rushing out the next time the extradimensional space is opened.",
+      "range": [
+        174,
+        174
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s spell focus makes a thunderous sound anytime they cast a spell. The sound can be heard in a 300 foot radius and renders the player half deaf for 10 minutes giving them resistance to thunder damage but disadvantage on perception checks relying on hearing.",
+      "range": [
+        175,
+        175
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target’s pants fall to their ankle with a whistling sound, reducing their speed to half if they do not use an action to pull them back up.",
+      "range": [
+        176,
+        176
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Worms sprout out of the player’s tongue whenever they tell a lie. If they swallow or spit them is up to the player but they taste reaaally awful. The real kind of wormtongue.",
+      "range": [
+        177,
+        177
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s breath now always smells terribly bad, giving disavantage on persuasion checks when talking to someone within 5 feet of them.",
+      "range": [
+        178,
+        178
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s age is reduced by 1d20 for one week after which they gain twice that amount in age.",
+      "range": [
+        179,
+        179
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A mysterious letter appears in the player’s pockets inviting them to a magical duels tournament on some far away island.",
+      "range": [
+        180,
+        180
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Though they can still read an write it, the player has completely forgotten how to speak common.",
+      "range": [
+        181,
+        181
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player becomes invisible to the target’s eyes.",
+      "range": [
+        182,
+        182
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The gravity in a 60 cube in front of the player shifts and now works sideways as it pushes from north to south instead of up to down.",
+      "range": [
+        183,
+        183
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s lips fuse together, sealing their mouth and preventing them to use verbal components when casting spells unless the player uses an action to cut their mouth open with a blade.",
+      "range": [
+        184,
+        184
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player polymorphs into an ogre while their target turns into a donkey. The transformations last until one of them is reduced to zero hit points.",
+      "range": [
+        185,
+        185
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player triggers a wild magic surge whenever they start their turn on this spot.",
+      "range": [
+        186,
+        186
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player now has difficulty to differentiate aggression and affection. They don’t really know if two people are fighting or just hugging.",
+      "range": [
+        187,
+        187
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player takes the appearance of the player playing them.",
+      "range": [
+        188,
+        188
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The next time the player steps into a puddle it turns out to be the bottomless lair of a water weird.",
+      "range": [
+        189,
+        189
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The nearest object weighing 5 pounds or less that isn’t being worn or carried flies straight towards the player as is someone had cast the catapult spell. The player must beat their own spell save DC or be hit by the object.",
+      "range": [
+        190,
+        190
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s skin is now brown and rough just like a kiwi skin.",
+      "range": [
+        191,
+        191
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "1d6 cabbage like plants in which grows tiny evil humanoid creatures sprout around the player. They grow to goblin size in one minute at which point they free themselves from the plant and call the player their parent.",
+      "range": [
+        192,
+        192
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Each time the player deals fire damage, their head becomes transparent and a bright light turns in it like a lighthouse until the end of their next turn.",
+      "range": [
+        193,
+        193
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target’s weapons double in size for one minute. They now deal twice the damage they did but attacks made with them are made at disadvantage",
+      "range": [
+        194,
+        194
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Swarms of flies come out of the player’s eyes for 1d4 rounds, blinding them for the same amount of time.",
+      "range": [
+        195,
+        195
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player disgorges 2d6 gallons of cream cheese within the next minute. Even though it is quite unsettling, the cheese is delicious to the taste.",
+      "range": [
+        196,
+        196
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Any rope carried by the player is turned into a snake of the same size.",
+      "range": [
+        197,
+        197
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A group of 1d4 friendly pegasus under the dm’s control appear in unoccupied spaces in a 60 foot radius around the player. They disappear in a flash of light after one minute.",
+      "range": [
+        198,
+        198
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target is turned into a masterfully crafted mandolin until someone plays a G chord on it.",
+      "range": [
+        199,
+        199
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player briefly takes the appearance of a demon lord. Each creature in a 30 foot radius around the player that can see them must make a wisdom saving throw against the player’s spell save DC or be frightened of the player for one minute.",
+      "range": [
+        200,
+        200
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All bottle containing non magical liquid in a one mile radius around the player pop open as champagne fizzes out of them.",
+      "range": [
+        201,
+        201
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target’s legs turn to stones for 1d6 rounds, leaving them with a speed of zero unless they somehow have a way to turn their legs back to flesh.",
+      "range": [
+        202,
+        202
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A perfect copy of the player steps out from a portal right behind them and stabs the player, killing them instantly. The copy then proceeds to take the player’s place with the exact same statistics and memories. If asked any question, they don’t remember exactly what happened but they insist that they are the real player and the other one was the copy.",
+      "range": [
+        203,
+        203
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All corpses, if any, in a 60 foot radius around the player animate and start dancing in unison for 5 minutes. What a thriller this must be!",
+      "range": [
+        204,
+        204
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target regains all their lost hit points.",
+      "range": [
+        205,
+        205
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Beholder-like eyestalks slowly grow on the head of the player, fully forming in 24 hours. At the same time the player’s eyes start to meld together into one big eye.",
+      "range": [
+        206,
+        206
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Any gold coins in the player’s possession is turned to pretzels.",
+      "range": [
+        207,
+        207
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player disappears from memory, any record mentioning them disappear and no one seem to be able to recognize them or even remember events in which they took part.",
+      "range": [
+        208,
+        208
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s spell focus disappears, it reappears in the hands of the target 1d4 rounds later.",
+      "range": [
+        209,
+        209
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The area 30 foot around the player is now affected by an antimagic field. The area is static and does not follow the player.",
+      "range": [
+        210,
+        210
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target is polymorphed into the form of the player’s mother.",
+      "range": [
+        211,
+        211
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Each of the player’s hands now have only five thumbs as fingers and get disadvantage on sleight of hand checks as a result. They literally are all thumbs.",
+      "range": [
+        212,
+        212
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target’s head explodes, leaving them deaf and blinded until it regrow 1d6 rounds later. Their mind is literally blown by the player’s magical abilities.",
+      "range": [
+        213,
+        213
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Anything said in a 30 foot radius around the player seem to be coming from the player’s mouth.",
+      "range": [
+        214,
+        214
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Any healing potion in the player’s possession is turned into a potion of poison without them knowing.",
+      "range": [
+        215,
+        215
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A dagger made of bone starts growing inside one of the player’s arm. It painfully comes out of it at midnight the same day.",
+      "range": [
+        216,
+        216
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A dozen multi-color spectral jellyfishes appear around the player. They fly around them in a swirling motion for one round, giving disadvantage on attack rolls against the player then fly away.",
+      "range": [
+        217,
+        217
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "A copy of the player made of cake appears on a table next to them in the same position as they were when the surge happened. The player can then spend one hour to eat the cake and gain the benefits of a heroes’ feast spell.",
+      "range": [
+        218,
+        218
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s torso starts spinning as thousands of bearing balls come flying out of them, covering the floor in a 15 foot radius around them. Creatures that move through the area must succeed on a DC10 dexterity saving throw or fall prone.",
+      "range": [
+        219,
+        219
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Maggots appear and start crawling under the skin of the player’s hands and along their fingers, paralyzing their hands and preventing them from using somatic components to cast spells. The maggots all come out from the player’s nails in 1d4 rounds.",
+      "range": [
+        220,
+        220
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "If the target dies by the end of the day, at the moment of their death their limbs get all twisted one big knot.",
+      "range": [
+        221,
+        221
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The target now moans with pleasure when they receive damage from another creature.",
+      "range": [
+        222,
+        222
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s head reverts back to how it was when they were 6 months old.",
+      "range": [
+        223,
+        223
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is immune to any damage for 1d10 minutes but any loot or magical item they find during that time disappear from their inventory once equipped or pocketed. No pain no gain.",
+      "range": [
+        224,
+        224
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "All push to open doors in a 5 miles radius now have to be pulled to be opened and all pull to open change to push. Possibly causing a lot of head injuries to a lot of npcs.",
+      "range": [
+        225,
+        225
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s shadow animates and attacks them. It has the statistics of a shadow and the player no longer casts a shadow if they defeat it.",
+      "range": [
+        226,
+        226
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is trapped in an one foot cube of transparent ice until it melts from the ambient temperature or someone outside the cube deals enough fire damage to melt it. The cube does not harm the player but prevents them from moving or casting any kind of spell.",
+      "range": [
+        227,
+        227
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "Every magic items in a 30 foot radius around the player lose their magical properties for 2d12 hours.",
+      "range": [
+        228,
+        228
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player’s clothes instantly change into a swimsuit and they now have an inflatable duck around their waist as a 5 foot deep pool of chlorinated water is created in a 15 foot radius around them.",
+      "range": [
+        229,
+        229
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "The player is instantly encased in a permanent 10 foot cube of stone as if someone had cast a wall of stone spell and the player failed their saving throw.",
+      "range": [
+        230,
+        230
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    }
+  ],
+  "_id": "roll-table-1746560459238"
+}

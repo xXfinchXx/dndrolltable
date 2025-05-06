@@ -31,4 +31,5 @@ contextBridge.exposeInMainWorld('api', {
     }
     throw new Error(`Roll table with ID ${documentId} not found`);
   },
+  importRollTable: (filePath) => ipcRenderer.invoke('import-roll-table', filePath),
 });

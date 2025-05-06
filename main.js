@@ -47,6 +47,31 @@ ipcMain.handle('update-roll-table', (event, index, tableData) => {
   throw new Error('Roll table not found');
 });
 
+ipcMain.handle('import-roll-table', (event, filePath) => {
+  if (fs.existsSync(filePath)) {
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const importedTable = JSON.parse(fileContent);
+
+    // Transform Foundry VTT roll table format to the app's format
+    const transformedTable = {
+      name: importedTable.name || 'Imported Roll Table',
+      description: importedTable.description || '',
+      formula: importedTable.formula || '1d20',
+      results: importedTable.results.map(result => ({
+        text: result.text,
+        range: result.range || [1, 1],
+        weight: result.weight || 1,
+        drawn: false,
+      })),
+    };
+
+    const newFilePath = path.join(__dirname, 'json', `imported-${Date.now()}.json`);
+    fs.writeFileSync(newFilePath, JSON.stringify(transformedTable, null, 2));
+    return newFilePath;
+  }
+  throw new Error('File not found');
+});
+
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit();

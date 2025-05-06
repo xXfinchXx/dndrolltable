@@ -547,6 +547,31 @@ window.addEventListener('DOMContentLoaded', () => {
       const resultDivs = document.querySelectorAll('.roll-result');
       resultDivs.forEach(resultDiv => resultDiv.remove()); // Remove only the resultDiv elements
     });
+
+    const importTableBtn = document.getElementById('importTableBtn');
+    const importFileInput = document.createElement('input');
+    importFileInput.type = 'file';
+    importFileInput.accept = '.json';
+    importFileInput.style.display = 'none';
+    
+    importTableBtn.addEventListener('click', () => {
+      importFileInput.click();
+    });
+    
+    importFileInput.addEventListener('change', async (event) => {
+      const file = event.target.files[0];
+      if (file) {
+        try {
+          const filePath = await window.api.importRollTable(file.path);
+          alert(`Roll table imported successfully: ${filePath}`);
+          location.reload(); // Reload to reflect the imported table
+        } catch (error) {
+          alert(`Failed to import roll table: ${error.message}`);
+        }
+      }
+    });
+    
+    document.body.appendChild(importFileInput);
   });
   
   contextBridge.exposeInMainWorld('api', {

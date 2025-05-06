@@ -1,0 +1,1456 @@
+{
+  "name": "Player Number Roll Table 2",
+  "description": "",
+  "formula": "1d161",
+  "results": [
+    {
+      "text": "Whenever the target opens a chest suspenseful music can be heard until the chest’s content is revealed.",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target vanishes from existence until someone calls out their name at which point they reappear riding a unicorn. The unicorn thanks the target for their help and teleports away.",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Any pet or familiar within 60 feet of the target is turned into a bugbear hostile to them.",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target and the creature closest to them switch bodies for 1d10 minutes. If either of them dies during that time, the one whose body was killed cannot return to their own corpse and both creatures must share the same body.",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest creature to the target is charmed and views them as their one true love. Doing anything for them for 1d4 hours.",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "An illusory duplicate of the target’s mother appear right beside them and starts scolding them, giving them disadvantage on ability checks, saving throws and attack rolls for 1d10 minutes.",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All copper coins in the target’s possession turn into excited baby chicks that starts running around making all the coins difficult to find when they transform back one minute later.",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Everyone in a 30 foot radius around the target must make a dexterity saving throw against the target’s spell save DC, on a failure, raw rotten gooey eggs fall on their heads, covering them in filth.",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Everyone’s hair in a one mile radius instantly retracts in their owner’s bodies. They grow back ten times longer after an hour.",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target suddenly shimmer’s with beauty, giving them advantage on persuasion checks until the next dawn.",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target is suddenly enraged giving them the benefits and inconvenience of the barbarian’s rage ability for one minute. Meaning they also can’t cast spells or concentrate on them. This rage cannot be ended wilfully.",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s knees disappear leaving them with stiff legs that wont bend anymore.",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All oxygen is sucked out in a 40 foot radius around the target for 1d6 rounds, any creature in the area starts choking and any open flame is instantly extinguished.",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target instantly grows a second head, constantly disagreeing with almost anything the target says.",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target leaves multicolored footstep behind them for 1d6 hours, making them extremely easy to track.",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s head turn into the target’s head and the target’s head turn into the target’s head.",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target grows tiefling like horns. If they already have horns their horns grow horns.",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s eyes fall out, leaving them blinded until they can find them on the ground by making a DC 12 perception check made with disadvantage and put them back into their socket as an action.",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s fingers turn into spider legs, giving them the ability to climb on walls and ceilings at half their walking speed.",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Every friendly creature in a 60 foot radius around the target find a letter signed by the target telling them that they are a beautiful person and that they love them.",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A mob of at least 30 people appear from seemingly out of nowhere and swarm the target. They are screaming and asking for autographs. They stay around the target, hindering their movement and vision until the target has used their action to sign autographs a total of 1d20 times, after which point the mob disperses and disappears.",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next horse touched by the target is transformed into a surprised but friendly duck that is the same size as the horse.",
+      "range": [
+        22,
+        22
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s strength score is augmented by 4d6 for 1d6 minutes as muscles tear through their shirt.",
+      "range": [
+        23,
+        23
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s clothes are changed into bacon, to the delight of any nearby bear.",
+      "range": [
+        24,
+        24
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next 1d10 times that the target casts a spell of first level or higher they age a number of years equal to that of the spell level used.",
+      "range": [
+        25,
+        25
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Everyone in a 60 foot radius around the target is instantly encased inside a snowman as other snowmen appear in random unoccupied spaces, making it difficult to discern which snowman contains someone and which one is empty. A creature encased in a snowman is restrained and starts choking until they take an action to break the snowman and free themselves.",
+      "range": [
+        26,
+        26
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Anyone with a melee weapon in hand must make a strength saving throw against the target’s spell save DC or drop their weapon as it flies towards the target. An attack roll using the target’s spell attack bonus must be made for each weapon that reaches the target, on a hit, the target takes the normal amount of damage from that weapon.",
+      "range": [
+        27,
+        27
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target now has a deep, quasi-robotic voice and they sound as if they were talking through a mask that helps them breathe.",
+      "range": [
+        28,
+        28
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target suddenly gets the feeling that their waterskin will explode in the next few seconds but it never happens.",
+      "range": [
+        29,
+        29
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "For the next 1d10 minutes the target disgorges a seemingly endless stream of silk scarfs tied together from end to end.",
+      "range": [
+        30,
+        30
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The moon now has the shape of the target’s head.",
+      "range": [
+        31,
+        31
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target now has compound eyes like a fly, giving them advantage on perception checks relying on sight but disadvantage on persuasion checks.",
+      "range": [
+        32,
+        32
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Everyone in a 5 miles radius now looks and sound exactly like the target, but only to the eyes and ears of the target.",
+      "range": [
+        33,
+        33
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "One random tree nearby now grows tiny clones of the target as fruits.",
+      "range": [
+        34,
+        34
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Each creatures in a 30 foot radius around the target are incapacitated for 1d6 rounds as pink and purple foam comes out of all their face orifices in massive quantities.",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The area in a 40 foot radius around the target separates itself from the ground and lift itself 100 feet in the air at a speed of 10 foot per round. The ares stop ascending if it reaches a ceiling or any form of solid natural barrier, possibly crushing creatures that are still on it.",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Every loose rocks in a one mile radius lift in the air and turn so that the part that was on the bottom of the rock is now on top, they then fall back to the ground. Effectively leaving no stone unturned.",
+      "range": [
+        37,
+        37
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target and the nearest creature to them are affected by a bless spell and are also instantly changed in what looks like obvious disguises of one another. It’s a blessing in disguise!",
+      "range": [
+        38,
+        38
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "1d6 jesters magically appear in unoccupied spaces within 30 feet of you. They sing, dance, juggle and make jokes (mainly about you) for 1 minute then disappear.",
+      "range": [
+        39,
+        39
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target now has a golden lever similar to that of a slot machine protruding from their chest. Each time that the lever is pulled, it makes the target’s eyes spin in their socket and there is a 5 percent chance that the target disgorges 8d6 diamonds worth 100 gold pieces each but there is also a 5 percent chance that any coin carried by the one who pulled the lever disintegrate. The lever disappears once someone has won the diamonds.",
+      "range": [
+        40,
+        40
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "the target grows tree leaves on their head whenever they think about elves, possible triggering a feedback loop where the leaves makes them think about leaves, which makes them grow more leaves.",
+      "range": [
+        41,
+        41
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The clothes currently being worn by the target are now bound to this location, teleporting back here of they move more than 20 feet away.",
+      "range": [
+        42,
+        42
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "1d4 tiny snakes magically appear in everyone’s trousers in a 60 foot radius around the target. The snakes get agitated and start biting at the people to get out.",
+      "range": [
+        43,
+        43
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target lets out a huge, loud yawn that lasts for 1d6 rounds, preventing them from using verbal spell components and possibly revealing their location if they were trying to hide.",
+      "range": [
+        44,
+        44
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target is now resistant to all damage until they use magic.",
+      "range": [
+        45,
+        45
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target casts a delayed blast fireball spell centered just beside them that will explode at the end of the target’s turn in 1d10 rounds, exploding early if anyone touche the glowing bead that the spell creates. When it explodes, the damage is increased following the spell’s description as if the target had concentrated on it.",
+      "range": [
+        46,
+        46
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s pockets and backpack if they have one are filled with reeking, rotting ground beef full of maggots.",
+      "range": [
+        47,
+        47
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The skin of the target’s face is now floating in front of it, leaving a one inch gap between the skin and the flesh and moving as if it was still attached to the face.",
+      "range": [
+        48,
+        48
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A lizardfolk magician appears in a flash of light along with heavy snowfall in an unoccupied space near the target and then whispers to them: “I’m the blizzard wizard lizard.” The magician then disappears as fast as it came but the snow keeps falling.",
+      "range": [
+        49,
+        49
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Anytime the target looks in a mirror, they see the reflection of the last person that looked into that mirror instead of their own.",
+      "range": [
+        50,
+        50
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "One of the target’s ability score changes randomly. To determine which one changes roll a d6, a result of 1 changes their strength score, 2 dexterity, 3 constitution, 4 intelligence, 5 wisdom and 6 charisma. Then roll 4d6 and apply the result to the affected ability score, possibly changing it to a whopping 24... Or a measly 4.",
+      "range": [
+        51,
+        51
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s skin falls to the ground, leaving them in absolute suffering and rendering them incapacitated as they reel in pain for 1d4 rounds after which point their skin grows back but is now bright yellow with black stripes.",
+      "range": [
+        52,
+        52
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target believes that the target is just an illusion until tangibly proven wrong, for example by being attacked by the target.",
+      "range": [
+        53,
+        53
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Anyone wearing heavy armor within 60 feet of the target see their armor turn to bright pink.",
+      "range": [
+        54,
+        54
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target now has the head of a horse and their upper torso is now furry with horse hair. They basically turned into a reverse centaur!",
+      "range": [
+        55,
+        55
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Anyone standing within 2 feet of the target can now hear the target’s stream of thoughts as if they were saying them out loud.",
+      "range": [
+        56,
+        56
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s backpack now makes an almost deafening screaming noise that can be heard in a 300 foot radius whenever it’s opened.",
+      "range": [
+        57,
+        57
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s mouth is now located under one of their armpit, requiring them to raise their hand when they want to speak and really complicating the way they eat.",
+      "range": [
+        58,
+        58
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target suddenly disappears only to reappear next to the target 1d12 hours later, the shift in time is instantaneous for the target.",
+      "range": [
+        59,
+        59
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target is now immune to acid but any form of alcohol now burns them like acid would a normal person.",
+      "range": [
+        60,
+        60
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target turns to wood whenever they sleep. Sleeping like a log.",
+      "range": [
+        61,
+        61
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target and the target swap one eye from each other, permitting them to use their action once per day to see what the other sees for one round.",
+      "range": [
+        62,
+        62
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All bricks within half a mile around the target turn to glass.",
+      "range": [
+        63,
+        63
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target is turned to a rusted metal version of themself and cannot move or take any action until someone has emptied an oil flask on them, Until then, the only thing they can do is say the words “Oil flask”.",
+      "range": [
+        64,
+        64
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The corpse of the last person killed by the target now keeps appearing beside them in weird poses at seemingly random but always inappropriate times. If the corpse is destroyed it always finds a way to come back seemingly unscathed.",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A big green button appears on the target’s chest. The first time it is pressed it does nothing, but the next time it is pressed it teleports the target to the last place the button was pressed. The button can be used in this way as an action a total 2d10 times before disappearing.",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s hair and clothes now always seem to be billowing dramatically in the wind, even when there is no wind at all.",
+      "range": [
+        67,
+        67
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Water jets come out of the target’s feet, sending them flying in the air at a speed of 20 feet per round for 1d10 rounds. Each round, the target can make a DC 14 dexterity check to try and control the jets, essentially giving them a 20 feet flying speed on a success, on a failure the target simply goes 20 feet directly up above their head. The target starts falling once the jets stop.",
+      "range": [
+        68,
+        68
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "One of the target’s hands become sentient, not always agreeing with them and sometimes doing what it wants, including rude gestures.",
+      "range": [
+        69,
+        69
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "For the next 1d10 hours, the target seems to be made entirely out of light as they shed bright light in a 60 foot radius around them and dim light in an additional 60 foot radius.",
+      "range": [
+        70,
+        70
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "For the next 1d4 rounds the target’s upper body becomes blurry as it moves extremely fast, dodging hits and missiles alike and effectively giving them a +10 bonus to their armor class.",
+      "range": [
+        71,
+        71
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target starts aging backwards at a rate of one year per 10 minutes until they reach 9 years old after which point they rapidly age back to the age they had when this wild magic surge started.",
+      "range": [
+        72,
+        72
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target is suddenly covered in a swarm of leeches that are stuck on them and slowly sucks their blood. The leeches count as one creature with an AC of 12 and a total of 22 hit points. Each round, the leeches deal 1d6 necrotic damage to the target and regains hit points equal to half that amount to a maximum of 30.",
+      "range": [
+        73,
+        73
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A jar containing the trapped soul of a powerful devil appears in the target’s backpack. If the target tries to communicate with it, the devil tries to bargain for it’s freedom.",
+      "range": [
+        74,
+        74
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Everyone in a 60 foot radius around the target now has a cone shaped paper hat on their head as confettis fly in the air and a catchy rythmic music fills the air. Now THAT’S a surprise party!",
+      "range": [
+        75,
+        75
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A rock and roll guitar solo can be heard whenever the target pretends to play music while making \"air guitar\" motions.",
+      "range": [
+        76,
+        76
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s body now emits bright light in a 30 foot radius around them and dim light for an aditionnal 30 foot and their intelligence score increases by 4d6 until their next long rest. Now they are definitely the brightest in the party.",
+      "range": [
+        77,
+        77
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Whenever the target uses teleportation magic or is teleported by someone else, they always arrive at their destination with their pants dowm.",
+      "range": [
+        78,
+        78
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "For the next 1d10 days, whenever the target rolls a natural 20 on an attack roll, an ability check or a savingthrow, their next roll will always count as a natural 1. And each time they roll a natural 1, their next roll counts as a natural 20. A natural 1 or 20 that is triggered by this wild magic surge does not affect the target’s next roll, a chain of only 1’s and 20’s is not the intended effect.",
+      "range": [
+        79,
+        79
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Anything the target writes turns out to be written in infernal, even if they dont understand it.",
+      "range": [
+        80,
+        80
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest monster is now madly in love with the target.",
+      "range": [
+        81,
+        81
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Though they can see, hear and speak normally, the target’s head now looks like a big egg for the next 1d6 days, after which the egg hatches and the target’s head is revealed to have changed to that of a baby chick.",
+      "range": [
+        82,
+        82
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target instantly grows a cottoncandy beard with 1d6 jellybeans in it. As a bonus action, the target can reach into the beard to take a jellybean and eat it, causing another random wild magic surge. The beard melts away once all the jellybeans have been eaten.",
+      "range": [
+        83,
+        83
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "One of the target’s fingers turn into a key that is still attached to their hand and that can open any lock. Once used, while still in the keyhole, the key turns back into a finger and is stuck there, effectively trapping the target’s hand in the lock unless they have a way to get away (cutting their finger off is always a valid option).",
+      "range": [
+        84,
+        84
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target now gets the urge to present themself and the name of the spell they are going to cast right before casting it. “Hi, I’m wild magic sorcerer and this is fireball.”",
+      "range": [
+        85,
+        85
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Fireworks blow up right over the target’s head as a screeching giant bald eagle flies through them and rock music plays in the air.",
+      "range": [
+        86,
+        86
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target melts into hundreds of small specks of themself as if they were a grated block of cheese and revert back to their normal self after 1d4 rounds. If they are asked what happened, the target doesn’t really know but it didn’t feel so “grate”.",
+      "range": [
+        87,
+        87
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target takes the form of the last type of creature they ate. So it’s true, you ARE what you eat.",
+      "range": [
+        88,
+        88
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A gnome in blue uniform with a bag full of letters appear next to the target. they tell them that they have mail for them and give them a small box before disappearing. The box contains multiple small chains. You know... The other kind of chain mail,",
+      "range": [
+        89,
+        89
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s arms become as soft as noodles until the end of the target’s next turn, making them drop whatever they were carrying.",
+      "range": [
+        90,
+        90
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next time the target tries to do something that seems dangerous, the target disappears and a stunt double that looks a lot like them appears, tries to do it instead of them and then disappears as the target reappears at right where their double was.",
+      "range": [
+        91,
+        91
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "An imp and a tiny celestial that only the target can see and hear appear on their shoulders, they advise the target on how to act in almost every situation, arguing over each other and most of the time ending up being distracting instead of helpful.",
+      "range": [
+        92,
+        92
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Everyone in a 60 foot radius area centered on the target is affected by a calm emotions spell, making everyone indifferent about averyone else. “Can’t we all just stop fighting and talk about this?”",
+      "range": [
+        93,
+        93
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Clouds in the sky coalesce to form the shape of a giant lion’s head that call out to the target by name and tells them to never forget who they are.",
+      "range": [
+        94,
+        94
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Whatever they do, the target now always smells like old sweaty socks.",
+      "range": [
+        95,
+        95
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target thinks that they have become invisible, no matter what they are told or whatever proof is given to them.",
+      "range": [
+        96,
+        96
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "One side of the target’s body becomes immune to fire while the other side becomes vulnerable to it. When the target receives fire damage from an attack or a spell, the target must roll a d20, on a roll from 1 to 10 the fire touches their vulnerable side and deals double the normal damage and on a roll of 11 to 20 the fire touches their immune side and deals no damage. If the target is damaged by an area of effect that deals fire damage, for instance a fireball spell, they receive the normal amount of damage.",
+      "range": [
+        97,
+        97
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Until the end of their next turn, the target’s eyes turn to extremely bright small suns, effectively blinding them. “Guys, I can’t see, I’ve got the sun in my eyes!”",
+      "range": [
+        98,
+        98
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "An awakened mastiff in a paladin-esque armor named Sir Sniffles appears beside the target to protect them. It stays in this world for one hour or until it dies, obeying to the target’s order. When it attacks, it deals an extra 1d6 radiant damage as its bite smites its enemies. And, of course, its alignment is lawful-goodboy.",
+      "range": [
+        99,
+        99
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Any item that the target takes out from containers such as backpack or treasure chest is magically wrapped in birthday themed wrapping paper.",
+      "range": [
+        100,
+        100
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All rabbits in a one mile radius around the target are suddenly enraged and go on a blood frenzy, jumping to the neck of people and biting their jugular.",
+      "range": [
+        101,
+        101
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s head shrinl to the siza of a light bulb and sheds bright light in a 60 foot radius and dim light for an additional 60 feet. They just feel a little light headed.",
+      "range": [
+        102,
+        102
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Hundreds of magical spiders appear all over the target, giving them disadvantage on attack rolls andability check for the next 1d6 rounds as the spiders crawl on the target’s skin and into their orifices.",
+      "range": [
+        103,
+        103
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next creature killed by the target is thrown 1d12 months into the future, fully healed and rested.",
+      "range": [
+        104,
+        104
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Dozens of inflatable lifelike motionless replicas of the target appear in unoccupied space3s in a 90 foot radius around the target. The target can then use its action to stay motionless and try to hide within the replicas. The replicas all have an AC of 6 and 1 hit point.",
+      "range": [
+        105,
+        105
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A sunglasses wearing saxophonist appears next to the target and plays sexy smooth jazz for the next 1d10 minutes. Everyone in a 100 foot radius that can hear the saxophonist must succeed on a wisdom saving throw equal to the target’s spell save DC or be charmed by the musician and stop whatever they were doing and start dancing in lascivious ways. If they want to, a charmed creature can attempt another wisdom saving throw at the end of each of their turn to stop being charmed and continue whatever they were doing.",
+      "range": [
+        106,
+        106
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Someone that looks and talks exactly like the current dungeon master descends from the sky and lands beside the target to talk to the party, they tell them that they are sorry for all the things they did and will do to them, but that it’s all part of the game. They then fly back up from whence they came.",
+      "range": [
+        107,
+        107
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Except for their spell focus, every non magical objects that the target is wearing or carrying turns to goldpieces of the same value.",
+      "range": [
+        108,
+        108
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Anyone looking in a mirror while the target is within a quarter mile of them sees the target as their reflection instead of their own and if the target looks in a mirror they see the reflection of everyone looking in the mirror at that time merged together as one.",
+      "range": [
+        109,
+        109
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target feels compelled to speak in rhymes for the next 1d12 hours. \"Roses are red, violets are blue, you will be dead, when I kill you\"... Poems are hard ok!?",
+      "range": [
+        110,
+        110
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target is sent back in time 1d20 hours. Make sure your DM is okay with this one!",
+      "range": [
+        111,
+        111
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The party is plagued by voices in their head. The voice sounds exactly like each PC’s mother and criticizes and chastises everything they do for 1d4 weeks. Things such as, “Oh, why would you kill that poor goblin? What did he do to you?” and, “You need to wipe your feet before going into an inn! Where are your manners?”",
+      "range": [
+        112,
+        112
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Whenever the target is hurt, a blast of confetti shoots out of their ears, accompanied by the sound of a party noise maker.",
+      "range": [
+        113,
+        113
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Every goblin within 100 miles gains a deep understanding of fine wines and high society.",
+      "range": [
+        114,
+        114
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The solar and lunar cycles reverse (sun/moon rises in the west and sets in the  east.).",
+      "range": [
+        115,
+        115
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s skin becomes covered in bright polka dots.",
+      "range": [
+        116,
+        116
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest nobility/royalty is convinced that the party has stolen something of importance from them.",
+      "range": [
+        117,
+        117
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target and the next party member they speak to swap minds. Exchange all mental scores, but keep all physical scores. They swap back after 1d10 days.",
+      "range": [
+        118,
+        118
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest town loses the ability to speak and becomes proficient in interpretive dance.",
+      "range": [
+        119,
+        119
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s pockets become filled with honey.",
+      "range": [
+        120,
+        120
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target experiences particularly severe flatulence for 1d4 days, though the scent is of fresh-cut spring flowers rather than… the usual scent of flatulence.",
+      "range": [
+        121,
+        121
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Storm clouds form in the area and rain down upon the land. The rain isn’t water however, instead it is melted butter.",
+      "range": [
+        122,
+        122
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Natural beasts within 10 miles quadruple in size instantly. This does not affect druids that have transformed with Wild Shape.",
+      "range": [
+        123,
+        123
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target gains the ability to pass through walls, but only 50% of the way. They become stuck if they try to move further forward.",
+      "range": [
+        124,
+        124
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next creature to come in physical contact with the target becomes instantly covered in black, sticky tar.",
+      "range": [
+        125,
+        125
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest cleric develops an insatiable appetite for dirt.",
+      "range": [
+        126,
+        126
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target discovers that their nose has become detachable.",
+      "range": [
+        127,
+        127
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next item the target touches becomes stuck to their hand as though held there by Sovereign Glue (see Dungeon Master’s Guide). However, it may be removed by Dispel Magic or Remove Curse.",
+      "range": [
+        128,
+        128
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target gains eat-vision. By staring at food or drink, they can focus their energy and eat/drink it from up to 100 feet away. While using this ability, their eyes glow white and there is a faint smell of burning flesh around them.",
+      "range": [
+        129,
+        129
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest tree to the target takes off into the sky like a rocket until it reaches 5,000 feet above the ground, then promptly falls.",
+      "range": [
+        130,
+        130
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s hair writes like snakes and gains nerves so that they feel pain whenever they are cut. If they have no hair, they grow hair as well!",
+      "range": [
+        131,
+        131
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "A squad of modrons appear and begin performing a musical symphony for the party. When they finish, they leave immediately.",
+      "range": [
+        132,
+        132
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "An extra arm sprouts from the target’s forehead and lasts for 1d4 days before vanishing with a loud pop. It is devoted to playing practical jokes on the target or causing them general (though non-life threatening) distress. Things like covering their eyes, giving wet-willies, etc.",
+      "range": [
+        133,
+        133
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All weapons within 50 feet of the target leap from their owner’s hands and bury themselves 5 feet into the ground.",
+      "range": [
+        134,
+        134
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest allied PC becomes certain that the party is being stalked by an ancient red dragon.",
+      "range": [
+        135,
+        135
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s teeth all begin screaming, and continue doing so for 1d8 days.",
+      "range": [
+        136,
+        136
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Creatures within 100 feet of the target and the target themself emit bright light",
+      "range": [
+        137,
+        137
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The sun and moon both gain large, menacing smiles. These are visible to those who look closely enough.",
+      "range": [
+        138,
+        138
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s boots now squeak like mice with every step they take.",
+      "range": [
+        139,
+        139
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Whenever the target speaks, it is in rhyme. If they attempt to speak in anything but rhyme, the creatures around them only hear the sound of static.",
+      "range": [
+        140,
+        140
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target becomes unable to walk in a straight line, as if permanently intoxicated.",
+      "range": [
+        141,
+        141
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target becomes invisible, but only while sneezing.",
+      "range": [
+        142,
+        142
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Whenever the target enters a building, the amount of light available dims to darkness and then a spotlight of bright light appears around the target (accompanied with trumpet sounds). Then the light returns to normal immediately afterward.",
+      "range": [
+        143,
+        143
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All food within 20 feet of the target now attracts bees from up to 10 miles away.",
+      "range": [
+        144,
+        144
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest evil aligned creature believes the party to be their greatest foe.",
+      "range": [
+        145,
+        145
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest field of crops animates and rises up against the farmers of the region.",
+      "range": [
+        146,
+        146
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All wheels within 1 mile morph into square shapes.",
+      "range": [
+        147,
+        147
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Whenever the target is silent, an audible ticking sound can be heard emanating from inside their chest.",
+      "range": [
+        148,
+        148
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest huge creature finds that they absolutely need to hug out their problems with everyone they meet",
+      "range": [
+        149,
+        149
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "much to the smaller creatures dismay!",
+      "range": [
+        150,
+        150
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Every night when the party rests, while they sleep their body slowly sinks into the ground, forming a small hole around them as the dirt magically moves aside. The hole gets 1 foot deeper per hour of sleep.",
+      "range": [
+        151,
+        151
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Each spell cast by the target now also summons a duck under the DM’s control.",
+      "range": [
+        152,
+        152
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The next NPC the party speaks to will begin shrinking slowly the longer they converse with them.",
+      "range": [
+        153,
+        153
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target’s gender swaps.",
+      "range": [
+        154,
+        154
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "For the next 1d8 days, the region experiences weather opposite of the current season.",
+      "range": [
+        155,
+        155
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All coins held by the party turn into platinum for the next 1d4 days, the return to their original state.",
+      "range": [
+        156,
+        156
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Half of the target’s body triples in age, while the other half becomes three times as young as their current age",
+      "range": [
+        157,
+        157
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "All creatures within a 30 foot radius vanish and then reappear at the center stacked atop one another in a random order.",
+      "range": [
+        158,
+        158
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The moon becomes invisible.",
+      "range": [
+        159,
+        159
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The nearest king abdicates their throne to live as a peasant on a homestead in the country.",
+      "range": [
+        160,
+        160
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "The target becomes aware of the fact that they are actually just a fictional character in a role playing game for the next 1d4 hours, and then they magically forget this fact. Enjoy this short existential crisis!",
+      "range": [
+        161,
+        161
+      ],
+      "weight": 1,
+      "drawn": false
+    }
+  ]
+}

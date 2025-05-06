@@ -1,10 +1,10 @@
 {
-  "name": "New Roll Table",
+  "name": "Testing Nested Tables",
   "description": "",
   "formula": "1d20",
   "results": [
     {
-      "text": "",
+      "text": "test",
       "range": [
         1,
         10
@@ -18,7 +18,7 @@
       "magicItemId": null
     },
     {
-      "text": "",
+      "text": "test",
       "range": [
         11,
         15
@@ -32,7 +32,7 @@
       "magicItemId": null
     },
     {
-      "text": "",
+      "text": "test",
       "range": [
         16,
         20
@@ -59,7 +59,7 @@
       "magicItemId": null
     },
     {
-      "text": "",
+      "text": "test",
       "range": [
         0
       ],
@@ -72,7 +72,7 @@
       "magicItemId": null
     },
     {
-      "text": "",
+      "text": "test",
       "range": [
         0
       ],
@@ -83,6 +83,45 @@
       "spellId": null,
       "equipmentId": null,
       "magicItemId": "adamantine-armor"
+    },
+    {
+      "text": "test",
+      "range": [
+        0
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": "ammunition-1"
+    },
+    {
+      "text": "",
+      "range": [
+        0
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": "antilife-shell",
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "",
+      "range": [
+        0
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": "animal-shapes",
+      "equipmentId": null,
+      "magicItemId": null
     }
   ],
   "_id": "roll-table-1746542646995"
