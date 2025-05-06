@@ -1,0 +1,121 @@
+{
+  "name": "Dice of Random Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roller is decided by wheel of names",
+  "results": [
+    {
+      "_id": "DtOHy6EUJ8Umwc5Y",
+      "type": 0,
+      "text": "The roller feels a sharp pain in their chest, and takes 2d6 damage.",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hkrZkGmKpMNYVwla",
+      "type": 0,
+      "text": "The roller teleports 1d6×5 ft. to the west.",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ofS4CQjgVAe4QCQi",
+      "type": 0,
+      "text": "1d12×10 gp appears in a pile 1d4×5 ft. to the north of the roller.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "4GE2doxGtKRDomxj",
+      "type": 0,
+      "text": "1d4 monsters with a challenge rating of 1/8 appear.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "pQKP9spXWEumrK2n",
+      "type": 0,
+      "text": "The roller can choose one monster, who takes 4d6 damage. The roller cannot move or do anything before choosing. The roller can also choose to get get 2d6 gp.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "rYoyMcVO0kDRCo2x",
+      "type": 0,
+      "text": "The roller is fully healed and has advantage on his/her next attack roll. This cannot be stacked.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "KFbleWEyAAfOafHH",
+  "flags": {
+    "scene-packer": {
+      "hash": "6ace8ec990a9b97d96a1a88c5903c5f2b8bd93d5",
+      "sourceId": "RollTable.Sh73mJLuIGWZk8J5"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

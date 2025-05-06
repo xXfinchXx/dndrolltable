@@ -1,0 +1,331 @@
+{
+  "name": "The Dice of Randomness",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roller is decided by wheel of names",
+  "results": [
+    {
+      "_id": "BEPihSZa4ZjiXL9g",
+      "type": 0,
+      "text": "one creature in a 100.ft radius of the person who rolled the die randomly decided by the DM takes 1d10 lightning damage",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Yj9cvsLo9ZR7rhVg",
+      "type": 0,
+      "text": "the person who rolled the die and one creature the DM randomly decides in a 100ft radius switch places",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "EycauSypsafZ8Hvi",
+      "type": 0,
+      "text": "the person who rolled the die decides one person or creature to heal 1d10 damage from",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "WZO5B0huX95IkhzZ",
+      "type": 0,
+      "text": "one creature or player randomly decided by the DM is banished to the Ethereal plane for two turns. after the turns are up the creature or player are transported back to the area they previously occupied or to an open spot near the spot the previously occupied",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "KU90Z3UPwT5rUL2s",
+      "type": 0,
+      "text": "one creature the DM randomly decides is  blinded for 1d6 turns",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "q8nUuOo8AlndKU0i",
+      "type": 0,
+      "text": "the person who rolled the die is targeted by all ranged attacks for 1d6 turns",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "6vPs66cku97Cpr6f",
+      "type": 0,
+      "text": "the person who rolled the die is immune to all conditions for 3d6 turns. this does not remove current conditions and after the duration the player is effected by their condition again",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lG6F4VGURA5EdCod",
+      "type": 0,
+      "text": "the person who rolled the die turns into a potted plant until the start of their next turn. While a plant, they are  incapacitated and vulnerable to all damage. If their health drops to 0, their pot breaks, and their form reverts.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lstag7ke0Uzx5M9h",
+      "type": 0,
+      "text": "if the person who rolled the die dies in the next minute, they immediately come back to life as if by the reincarnate spell",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "q1vZQWBJSknqFCEi",
+      "type": 0,
+      "text": "for the next minute, the person who rolled the die can choose to succeed on a saving throw or ability check that they failed once",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "X83BjZF59sBDnHYs",
+      "type": 0,
+      "text": "the roller regains 2d10 hit points. if the number goes over the persons hit point maximum, the left over hit points can be given to another player or added to the roller as temporary hit points",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "jjJpyxBviNsHaGFE",
+      "type": 0,
+      "text": "the roller can take a second action on their next turn",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Z0S0NJPBPCNYc2As",
+      "type": 0,
+      "text": "the roller casts grease centered on them self.",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "xEagnzx5DillL6xP",
+      "type": 0,
+      "text": "for 3d8 turns, the roller must shout when they try to speak",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "fVBVuQcrgfM9gMWB",
+      "type": 0,
+      "text": "the roller casts levitate on them self but cant control where they move",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "jN33DV3ukM1NbytE",
+      "type": 0,
+      "text": "the roller and one player the roller chooses doesn't need sleep or food for the next 5d6 days. after that time period both players must eat 1d6 rations and complete a long rest or role half their hit die and lose that many hit points",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "TAhBcDgBjGYMyzC6",
+      "type": 0,
+      "text": "the roller casts the spell flesh of stone on them self",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "iHYSRDKW61usdxiM",
+      "type": 0,
+      "text": "for the next minute, any flammable object the roller touches that isn't being worn or carried by another creature bursts into flame.",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "WZFH4NBTN5hiOKqv",
+      "type": 0,
+      "text": "the roller casts fog cloud centered on them self",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "EGYpFKNrVE6EWvHO",
+      "type": 0,
+      "text": "each creature within 30 feet of the roller takes 1d10 necrotic damage. They regain hit points equal to the sum of necrotic damage dealt",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "KFbleWEyAAfOafHH",
+  "flags": {
+    "scene-packer": {
+      "hash": "a2a2a82f3948c9054fd027e84883a74fdd68d9ce",
+      "sourceId": "RollTable.75iowmJoiBh3bF9W"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "name": "Dungeon Trap Generator - Physical",
+  "img": "icons/svg/d20-grey.svg",
+  "results": [
+    {
+      "_id": "hczEmtXtUaqI5Bz2",
+      "type": 0,
+      "text": "Collapsing floor creates a ramp that deposits characters into a pit at its lower end",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zzkNKwubDcjeRnzp",
+      "type": 0,
+      "text": "A stone block falls from the ceiling",
+      "weight": 1,
+      "range": [
+        5,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "baewkjDMpqIedYZj",
+      "type": 0,
+      "text": "Wall enclose the space and the ceiling slowly lowers",
+      "weight": 1,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "xu27x9p4P4bvwr3u",
+      "type": 0,
+      "text": "Clanging noise attracts nearby monsters",
+      "weight": 1,
+      "range": [
+        13,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ki5MN7qmuBF6mBk6",
+      "type": 0,
+      "text": "Fire shoots out from wall, floor, or object",
+      "weight": 1,
+      "range": [
+        17,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "36COeaoaNrmeHRu9",
+      "type": 0,
+      "text": "Floor collapses and reveals a precarious path",
+      "weight": 1,
+      "range": [
+        21,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "eNSBYhjM2oztJ38D",
+      "type": 0,
+      "text": "Vent releases gas: blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing",
+      "weight": 1,
+      "range": [
+        26,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "nIaZFD4QAQ3pTXRj",
+      "type": 0,
+      "text": "Floor tiles are electrified",
+      "weight": 1,
+      "range": [
+        30,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Dz54T1B2WUOW3hfA",
+      "type": 0,
+      "text": "Huge wheeled statue rolls down corridor",
+      "weight": 1,
+      "range": [
+        37,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "CtHhtkT8n4q1WU2v",
+      "type": 0,
+      "text": "Wall enclose the space and floods with water or acid",
+      "weight": 1,
+      "range": [
+        41,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "orrmmSTkPTYFU4zV",
+      "type": 0,
+      "text": "Darts shoot out of the wall (Might be poisoned)",
+      "weight": 1,
+      "range": [
+        46,
+        49
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "oBTNIEqZO6aihDnC",
+      "type": 0,
+      "text": "Pendulum, either bladed or weighted as a maul, swings across the room or hall",
+      "weight": 1,
+      "range": [
+        50,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "O0NLaLuNPQ9VeHTN",
+      "type": 0,
+      "text": "Hidden pit opens beneath characters (50/50 percent chance that a black pudding or gelatinous cube fills the bottom of the pit)",
+      "weight": 1,
+      "range": [
+        54,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "nt3iCln8fUKNNti0",
+      "type": 0,
+      "text": "Scything blade emerges from wall or object",
+      "weight": 1,
+      "range": [
+        57,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "KxbSua9a5JH9FhGs",
+      "type": 0,
+      "text": "Spears (possibly poisoned) spring out",
+      "weight": 1,
+      "range": [
+        62,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "VSYW9XLH3ZIOfbxc",
+      "type": 0,
+      "text": "Steel or stone jaws restrain a character",
+      "weight": 1,
+      "range": [
+        67,
+        72
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "cxrG3RmguWjpdJJP",
+      "type": 0,
+      "text": "Stone block smashes across hallway",
+      "weight": 1,
+      "range": [
+        73,
+        79
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "YXjBxEjCIjelR5MD",
+      "type": 0,
+      "text": "Walls slide together",
+      "weight": 1,
+      "range": [
+        80,
+        85
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d85",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "gad4ULHVhczzqztA",
+  "flags": {
+    "scene-packer": {
+      "hash": "e205c268d306210b762d03971ce9d0c11c679f54",
+      "sourceId": "RollTable.FBrZCo9Bf7JKc8tH"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "description": "",
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

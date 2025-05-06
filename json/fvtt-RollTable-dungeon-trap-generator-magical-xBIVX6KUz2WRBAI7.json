@@ -1,0 +1,211 @@
+{
+  "name": "Dungeon Trap Generator - Magical",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "0VYllNR2PKk7VA1e",
+      "type": 0,
+      "text": "Magic missles shoot from a statue, object, or wall",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "NPulxG6RCawHOJtU",
+      "type": 0,
+      "text": "Touching an object triggers a disintegrate spell",
+      "weight": 1,
+      "range": [
+        5,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vjS69u37dBz1BOsJ",
+      "type": 0,
+      "text": "Touching an object triggers a flesh to stone spell",
+      "weight": 1,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "36COeaoaNrmeHRu9",
+      "type": 0,
+      "text": "Floor is an illusion",
+      "weight": 1,
+      "range": [
+        11,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "eNSBYhjM2oztJ38D",
+      "type": 0,
+      "text": "Vent releases gas: blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing",
+      "weight": 1,
+      "range": [
+        15,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "nIaZFD4QAQ3pTXRj",
+      "type": 0,
+      "text": "Floor tiles are electrified",
+      "weight": 1,
+      "range": [
+        18,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "bcndV5rridjMyjdT",
+      "type": 0,
+      "text": "Glyph of warding",
+      "weight": 1,
+      "range": [
+        22,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "PUh2MVDSNZK62ueM",
+      "type": 0,
+      "text": "Lightning bolt shoots from wall or object",
+      "weight": 1,
+      "range": [
+        26,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "CtHhtkT8n4q1WU2v",
+      "type": 0,
+      "text": "Wall enclose the space and floods with water or acid",
+      "weight": 1,
+      "range": [
+        30,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "FxoDFz3EUBqNE73h",
+      "type": 0,
+      "text": "A weapon, suit of armor, or rug animates and attacks when touched (see \"Animated Objects\" in the Monster Manual)",
+      "weight": 1,
+      "range": [
+        33,
+        37
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "eapIxwiRR0uDTp3I",
+      "type": 0,
+      "text": "Thunderwave knocks characters into a pit or spikes",
+      "weight": 1,
+      "range": [
+        38,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zMBE23XKHEHEOISl",
+      "type": 0,
+      "text": "Symbol",
+      "weight": 1,
+      "range": [
+        42,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d45",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "gad4ULHVhczzqztA",
+  "flags": {
+    "scene-packer": {
+      "hash": "c9b1b94a94b7c254c61f7587c4c090347c83f81e",
+      "sourceId": "RollTable.xBIVX6KUz2WRBAI7"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

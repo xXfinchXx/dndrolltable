@@ -1,0 +1,121 @@
+{
+  "name": "Dungeon Chaos",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "TZa1aU4FEldf2vqD",
+      "type": 1,
+      "text": "Wand of Random Spells",
+      "img": "icons/weapons/wands/wand-gem-blue.webp",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "documentCollection": "Macro",
+      "documentId": "YngyDfLufvYBwsTY"
+    },
+    {
+      "_id": "wxA7lPsKnn2dWjAW",
+      "type": 1,
+      "text": "Potion of Greater Randomness",
+      "img": "4crlf174ih711.jpg",
+      "weight": 1,
+      "range": [
+        5,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "documentCollection": "Macro",
+      "documentId": "teUyLT00PzzAmBiG"
+    },
+    {
+      "_id": "kXk2Df33JVJCDvca",
+      "type": 1,
+      "text": "Staff of Randomness",
+      "img": "icons/weapons/staves/staff-engraved-wood.webp",
+      "weight": 1,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "documentCollection": "Macro",
+      "documentId": "4GaA5s2QWIZ8DYD4"
+    },
+    {
+      "_id": "b1DHvI8dF6NBnwGR",
+      "type": 1,
+      "text": "Dice of Random Events",
+      "img": "2108-large_default.jpg",
+      "weight": 1,
+      "range": [
+        13,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "documentCollection": "Macro",
+      "documentId": "CUPxlVwNVgAo1b3B"
+    },
+    {
+      "_id": "aG2uJ5FUhyrfaHSJ",
+      "type": 1,
+      "text": "Wand of Randomized Polymorph",
+      "img": "icons/weapons/wands/wand-gem-green.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "documentCollection": "Macro",
+      "documentId": "AzV9RG4uGlF0Dnsm"
+    },
+    {
+      "_id": "4CzXcFDD37fLe9yg",
+      "type": 1,
+      "text": "The Dice of Randomness",
+      "img": "black-red-d20__27705.jpg",
+      "weight": 1,
+      "range": [
+        18,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "documentCollection": "Macro",
+      "documentId": "hkipKA1EY2BWlsb9"
+    }
+  ],
+  "formula": "1d21",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "gad4ULHVhczzqztA",
+  "flags": {
+    "scene-packer": {
+      "hash": "3300a82d6f3ea0980248502c8082597d08ef29f2",
+      "sourceId": "RollTable.vuP5moqe42GXVgyi"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.3.1",
+    "coreVersion": "11.308",
+    "createdTime": null,
+    "modifiedTime": 1745877006915,
+    "lastModifiedBy": "vXMUP1QQ0n9dYSXl"
+  }
+}

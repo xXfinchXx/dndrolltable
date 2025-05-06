@@ -1,0 +1,1372 @@
+{
+  "name": "Pretty Okayish Items",
+  "img": "icons/svg/d20-grey.svg",
+  "results": [
+    {
+      "_id": "jj5cuDSAxLk2ygwY",
+      "type": 0,
+      "text": "A block of hard cheese",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "SmYlGy8GzJ40vfaX",
+      "type": 0,
+      "text": "1d4 bars of well-made olive soap wrapped in stained rawhide",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "M0favjmOVvRsYd3P",
+      "type": 0,
+      "text": "An iron clasp, as for a cloak, inlaid with copper in the shape of a ship",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ThLSwjhNw4nSxz25",
+      "type": 0,
+      "text": "A smooth, rounded river rock with a rose scraped into its face",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hC6OhxuDxPZpGMIJ",
+      "type": 0,
+      "text": "1d6 small sticks of chalk",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0oW1xUeQHN10gGBD",
+      "type": 0,
+      "text": "1d4 Gambling dice",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "rVJzsJS7E68sMGmK",
+      "type": 0,
+      "text": "Two torches of sulfur, immune to being quenched by water",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "RwYqt4mCRsimEL8i",
+      "type": 0,
+      "text": "Linen pouch filled with tobacco",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vKsXs34REaukcFNU",
+      "type": 0,
+      "text": "Twenty-one slender iron nails, 2” in length",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "D7R2Pz7eEKNslLOO",
+      "type": 0,
+      "text": "Poor man’s walking cane, decorated near its top with rings of colorful paint",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "BZZAKRZmi31SDG6e",
+      "type": 0,
+      "text": "Simple oxhide belt, suitable for hanging significant weight from",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "4r5LdgN293oWOQgf",
+      "type": 0,
+      "text": "Two small gold earrings",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "iAe4IAfsn8pAsKqW",
+      "type": 0,
+      "text": "Wooden personal drinking cup, decorated with carvings of hunting dogs",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zJl8Ydx1F6ncshIk",
+      "type": 0,
+      "text": "Coral pendant in the style of a cameo of a mermaid hung from cord",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "SKXup8UQ1XX0kh1T",
+      "type": 0,
+      "text": "Wrought iron candleholder shaped like an octopus",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "NssnLwqNmWY6eE8i",
+      "type": 0,
+      "text": "Bronze paring knife",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "P0hcaRvV9FgViQZ6",
+      "type": 0,
+      "text": "Well-made sheep shears in a fitted leather sheath",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "e9h7xzAmTYHQpAI9",
+      "type": 0,
+      "text": "Red velvet sack for carrying a jug of wine, or similar object",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "veBOVocCQtW7yNby",
+      "type": 0,
+      "text": "Scrimshaw work-in-progress of a mounted soldier tilting at a snail",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "7aD0O9HMYVeym160",
+      "type": 0,
+      "text": "1d8 lovely silver dining forks wrapped carefully in a torn strip of dyed linen",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "4DIs1CBEPiXG0v96",
+      "type": 0,
+      "text": "Large, thick-walled glass jar with cork stopper",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "t9yyzNQ0etHAOgC9",
+      "type": 0,
+      "text": "North Sea gannet down pillow, famed for its luxuriant softness and lightness",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ox7fKd2zIoMMaZIZ",
+      "type": 0,
+      "text": "Unframed antique painting of a beloved saint",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "wxxuqNPls5iBgouf",
+      "type": 0,
+      "text": "1d6 empty waterskins",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "SAyDZ0xQaPtTkfZM",
+      "type": 0,
+      "text": "1d4 large gourds filled with unidentified, spiced apple-scented spirits",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "N6JNPOZM8RUNhoIK",
+      "type": 0,
+      "text": "Linen tunic with wool cloak",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0bArrJJvPFZ6Lnpt",
+      "type": 0,
+      "text": "Finely-made steel carving knife with a checkered bone handle",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "3Prj1dL6vE8kHmYv",
+      "type": 0,
+      "text": "Woolen mantle with mink fringe, embroidered in a foreign pattern",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Rk5MOyxV1lG1YLci",
+      "type": 0,
+      "text": "Leatherbound hymnal",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "1uwLgqCzgvLv3REI",
+      "type": 0,
+      "text": "Camp hatchet with WULFGAR inlaid into the head with a darker metal",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "1InsGYy3ghClakld",
+      "type": 0,
+      "text": "Necklace of reptilian teeth",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "eUxvsD7ssq17cuAN",
+      "type": 0,
+      "text": "1d4 discs of dwarven hearthloaf, which each nourish a man for two days",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "fkNdZHhDmPPs1pvR",
+      "type": 0,
+      "text": "Thick gold ring with inset obsidian cut to depict a soldier’s helmet",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "l5Ced2T22D7tYDH1",
+      "type": 0,
+      "text": "Four blue wax sticks and a seal from a lesser house of merchant tycoons",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Nj6x6NxuAJUUdgd8",
+      "type": 0,
+      "text": "1d6 common riding crops",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hIEnb50ZeUYkIDQs",
+      "type": 0,
+      "text": "1d20 common candles within a rough wooden crate",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "CrE0vjdGEwfLQf2E",
+      "type": 0,
+      "text": "Strong iron manacles",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lRciStHemrN4T5C3",
+      "type": 0,
+      "text": "Spade and shovel",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "yKKEaUTaiZB7NbGv",
+      "type": 0,
+      "text": "Set of used, but sharp, chisels in a leather tool roll",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lomGQoLvNPTVuN5K",
+      "type": 0,
+      "text": "Small iron anvil",
+      "weight": 1,
+      "range": [
+        40,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "UdPu6diVQJCl0Nga",
+      "type": 0,
+      "text": "A sack of dates",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vB71bRwSjBFCZiuh",
+      "type": 0,
+      "text": "1d4 pounds of venison jerky",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "LxPZVSJJcIuxoqTG",
+      "type": 0,
+      "text": "Clay pot of salted herring",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "uLqryWlkKdsWdRv0",
+      "type": 0,
+      "text": "1d8 assorted large leatherbound books",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IqyAE3maIin9QOK0",
+      "type": 0,
+      "text": "Fashionable gown of silk, embroidered with complimentary thread",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hx0F2rNK4cRntd3M",
+      "type": 0,
+      "text": "A heavy sheepskin hat suitable for wear in stormy climes",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "W3Vtqlq0HTbZJfhJ",
+      "type": 0,
+      "text": "Quilted arming jack",
+      "weight": 1,
+      "range": [
+        47,
+        47
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "diLu1qWv8tVnuSBt",
+      "type": 0,
+      "text": "Utilitarian brass oil lamp",
+      "weight": 1,
+      "range": [
+        48,
+        48
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ISYDlgtpj0jxtHF0",
+      "type": 0,
+      "text": "Set of tin camp cookware",
+      "weight": 1,
+      "range": [
+        49,
+        49
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hprYRYeenoogRw13",
+      "type": 0,
+      "text": "Small cask of strong wine, marked with the seal of a hobbit vintner",
+      "weight": 1,
+      "range": [
+        50,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "mLxlteEAQV4UTacG",
+      "type": 0,
+      "text": "1d10 large iron spikes",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "GTBb3AZYwxnSf3rv",
+      "type": 0,
+      "text": "1d4 bundles of common hemp rope",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "QBTWDeYU01ots7IX",
+      "type": 0,
+      "text": "Small sack of sugar",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "FCOFHDlw2vDv3k0I",
+      "type": 0,
+      "text": "Simple longstem smoking pipe",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "byE2RBdEKZHgXoXK",
+      "type": 0,
+      "text": "Damaged brass bell",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "q8YvvyBZ5W8JgXT9",
+      "type": 0,
+      "text": "Common cast net for trout fishing",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "8GSOOvxagAwlAbg7",
+      "type": 0,
+      "text": "Bag of very uncommon dried herbs from a neighboring region",
+      "weight": 1,
+      "range": [
+        57,
+        57
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "8ErtYXKs3hzIcgdB",
+      "type": 0,
+      "text": "Pouch containing bones used to tell fortunes and omens",
+      "weight": 1,
+      "range": [
+        58,
+        58
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IWAi32tOXOdhCOio",
+      "type": 0,
+      "text": "Small vial of powerful red dye",
+      "weight": 1,
+      "range": [
+        59,
+        59
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "aeX6whZa75ACBu9Q",
+      "type": 0,
+      "text": "1d4 small pouches of salt",
+      "weight": 1,
+      "range": [
+        60,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "n4umHPNhO6Kals3o",
+      "type": 0,
+      "text": "Ornate wooden panflute",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "7Vnf4ghnbBovEx64",
+      "type": 0,
+      "text": "1d4 bricks of aromatic incense suitable for religious ceremonies",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "2ANsaky17bCKjXt4",
+      "type": 0,
+      "text": "Set of common craftsman’s tools",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "p2tZXfXgcTE5lwhp",
+      "type": 0,
+      "text": "Durable quiver of wood and stiffened leather with decorative tooling",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "JxZyI8hHqT6jbKQi",
+      "type": 0,
+      "text": "Mediocre tapestry, 20’x3’ rolled into a bolt, showing a battle of man and elf",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "HvHxbgYQ0KqxPL5Q",
+      "type": 0,
+      "text": "Gilt ivory statuette of a frog, with pink coral eyes",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "PvEAV0yRUlW4lN1G",
+      "type": 0,
+      "text": "1d4 exquisite gold utensils with horn handles",
+      "weight": 1,
+      "range": [
+        67,
+        67
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "rkwjJ2AtWgFynMSD",
+      "type": 0,
+      "text": "1d6 bottles of wine, of good vintage, sealed with corks and delicate wire",
+      "weight": 1,
+      "range": [
+        68,
+        68
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "DXH4pnXItrL6WqlS",
+      "type": 0,
+      "text": "A wheel of aged dwarven cheese, clad in beeswax",
+      "weight": 1,
+      "range": [
+        69,
+        69
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Ccp8Ik7PlVXUpOEA",
+      "type": 0,
+      "text": "Warm woolen overcoat, gloves, and hooded mantle, bedecked with mink fur",
+      "weight": 1,
+      "range": [
+        70,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "VmQB5Zh7bHqQlOkm",
+      "type": 0,
+      "text": "1d4 gold wedding rings inscribed with religious symbols for fertility",
+      "weight": 1,
+      "range": [
+        71,
+        71
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "JBYvHFj2NpvYRyMa",
+      "type": 0,
+      "text": "Wooden case containing 1d6 bottles of ink",
+      "weight": 1,
+      "range": [
+        72,
+        72
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IfyaEWhNWicgcFQv",
+      "type": 0,
+      "text": "Polished silver hand mirror with an engraving of a fair angel on the reverse",
+      "weight": 1,
+      "range": [
+        73,
+        73
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "HMANPGnwfc0XMD7y",
+      "type": 0,
+      "text": "A 19-string harp of oiled limewood and sycamore with gut strings",
+      "weight": 1,
+      "range": [
+        74,
+        74
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zlo6f9XYzVHh9puw",
+      "type": 0,
+      "text": "1d4 well-made cast iron cooking vessels",
+      "weight": 1,
+      "range": [
+        75,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vUFMxwT4Q1sMYBHo",
+      "type": 0,
+      "text": "Fine calfskin turnshoes with dyed thongs and stitching",
+      "weight": 1,
+      "range": [
+        76,
+        76
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "bI1uLruc2VjjhBvG",
+      "type": 0,
+      "text": "Gilt cage, sized for a songbird, with ornamented base depicting wild animals",
+      "weight": 1,
+      "range": [
+        78,
+        78
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "uuMrV2pMUIJSDaiO",
+      "type": 0,
+      "text": "Banded armor coat suitable for a wealthy man, with purple velvet exterior",
+      "weight": 1,
+      "range": [
+        77,
+        77
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "65IexWc4fHKMjT0L",
+      "type": 0,
+      "text": "Empty iron strongbox with key, 12”x12”x8”",
+      "weight": 1,
+      "range": [
+        79,
+        79
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "p3AwYrAlkE649pTF",
+      "type": 0,
+      "text": "Jade prayer beads &amp; Large leather saddlebags with oversized polished brass fittings",
+      "weight": 1,
+      "range": [
+        80,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "gX5VCa3dHxpkiKiO",
+      "type": 0,
+      "text": "1d8 pounds of candied ginger and apricots",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "AKJYtn0zwhdLDPCG",
+      "type": 0,
+      "text": "1d4 doses of hallucinogenic Dream Leaf",
+      "weight": 1,
+      "range": [
+        82,
+        82
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "fVWhxX8T0BLLQ84Q",
+      "type": 0,
+      "text": "Coiled brass horn with silken banner",
+      "weight": 1,
+      "range": [
+        84,
+        84
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "3Kiue0F4EGI8quTL",
+      "type": 0,
+      "text": "Extremely ostentatious turtleshell comb",
+      "weight": 1,
+      "range": [
+        83,
+        83
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "MQReXHDYt8MlYhOu",
+      "type": 0,
+      "text": "Exquisite silken gown, accompanied by a gauze shawl with silvered threads",
+      "weight": 1,
+      "range": [
+        85,
+        85
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "F3JPcctEmHOfDGHe",
+      "type": 0,
+      "text": "Brass lantern, cut to cast novel shadows in leaf shapes",
+      "weight": 1,
+      "range": [
+        86,
+        86
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "48AnndiRkJHw9ffG",
+      "type": 0,
+      "text": "1d6 pint jars of rose and quince marmalade",
+      "weight": 1,
+      "range": [
+        87,
+        87
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Zey2FnyhbJYnbj09",
+      "type": 0,
+      "text": "Painted wood soldier, 3” high, festooned in finery for a tournament",
+      "weight": 1,
+      "range": [
+        88,
+        88
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ULyVhs6VAl0WaRRr",
+      "type": 0,
+      "text": "Ceramic amphora decorated with erotic paintings",
+      "weight": 1,
+      "range": [
+        89,
+        89
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d89",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "LlAoIJlUzPqMoa9N",
+  "flags": {
+    "better-rolltables": {
+      "tags": "",
+      "table-type": "none",
+      "table-currency-string": "",
+      "loot-amount-key": "",
+      "loot-actor-name": ""
+    },
+    "scene-packer": {
+      "sourceId": "RollTable.SZ6ymZDKl6LLhnnH"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "description": "",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": null,
+    "modifiedTime": 1682130792843,
+    "lastModifiedBy": "vXMUP1QQ0n9dYSXl"
+  }
+}

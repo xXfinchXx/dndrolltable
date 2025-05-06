@@ -1,0 +1,89 @@
+{
+  "name": "New Roll Table",
+  "description": "",
+  "formula": "1d20",
+  "results": [
+    {
+      "text": "",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "RollTable",
+      "documentId": "roll-table-1746543258949.json",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "",
+      "range": [
+        11,
+        15
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": "acid-splash",
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "",
+      "range": [
+        16,
+        20
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": "acid-vial",
+      "magicItemId": null
+    },
+    {
+      "text": "tew",
+      "range": [
+        21
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "",
+      "range": [
+        0
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": "animal-friendship",
+      "equipmentId": null,
+      "magicItemId": null
+    },
+    {
+      "text": "",
+      "range": [
+        0
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "",
+      "documentId": null,
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": "adamantine-armor"
+    }
+  ],
+  "_id": "roll-table-1746542646995"
+}
