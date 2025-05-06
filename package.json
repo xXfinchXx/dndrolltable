@@ -4,13 +4,14 @@
   "description": "DnD Roll Tables Application",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "cross-env NODE_ENV=development electron .",
     "build": "electron-builder",
     "dist": "electron-builder --win"
   },
   "devDependencies": {
     "electron": "^25.0.0",
-    "electron-builder": "^24.6.0"
+    "electron-builder": "^24.6.0",
+    "cross-env": "^7.0.3"
   },
   "build": {
     "appId": "com.example.dndrolltables",

@@ -575,6 +575,23 @@ window.addEventListener('DOMContentLoaded', () => {
   });
   
   contextBridge.exposeInMainWorld('api', {
-    // ...existing code...
+    loadRollTables: () => {
+      const jsonDir = window.api.getUserDataPath('json');
+      if (!fs.existsSync(jsonDir)) return [];
+      const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
+      return files.map(file => {
+        const filePath = path.join(jsonDir, file);
+        const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        return { filePath, data };
+      });
+    },
+    getUserDataPath: (subDir) => {
+      const basePath = path.join(window.api.getUserDataBasePath(), subDir);
+      if (!fs.existsSync(basePath)) {
+        fs.mkdirSync(basePath, { recursive: true }); // Ensure the folder exists
+      }
+      return basePath;
+    },
+    getUserDataBasePath: () => ipcRenderer.invoke('get-user-data-path'),
     deleteRollTable: (index) => ipcRenderer.invoke('delete-roll-table', index),
   });

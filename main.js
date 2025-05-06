@@ -3,11 +3,20 @@ const path = require('path');
 const fs = require('fs');
 
 let mainWindow;
+const userDataPath = app.getPath('userData'); // Get the user-specific data directory
+const isDevelopment = process.env.NODE_ENV === 'development'; // Check if running in development mode
+const jsonDir = isDevelopment
+  ? path.join(__dirname, 'json') // Use the local json folder in development
+  : path.join(userDataPath, 'json'); // Use the user-specific json folder in production
 
 app.on('ready', () => {
+  if (!fs.existsSync(jsonDir)) {
+    fs.mkdirSync(jsonDir, { recursive: true }); // Ensure the JSON directory exists
+  }
+
   mainWindow = new BrowserWindow({
     width: 800,
-    height: 600,
+    height: 800,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
@@ -20,16 +29,15 @@ app.on('ready', () => {
 
 ipcMain.handle('save-roll-table', (event, tableData) => {
   tableData._id = tableData._id || `roll-table-${Date.now()}`; // Ensure _id is set
-  const filePath = path.join(__dirname, 'json', `${tableData._id}.json`);
+  const filePath = path.join(jsonDir, `${tableData._id}.json`);
   fs.writeFileSync(filePath, JSON.stringify(tableData, null, 2)); // Save the table data to the file
   return filePath;
 });
 
 ipcMain.handle('delete-roll-table', (event, index) => {
-  const dir = path.join(__dirname, 'json');
-  const files = fs.readdirSync(dir).filter(file => file.endsWith('.json'));
+  const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
   if (files[index]) {
-    const filePath = path.join(dir, files[index]);
+    const filePath = path.join(jsonDir, files[index]);
     fs.unlinkSync(filePath); // Delete the file
     return true;
   }
@@ -37,10 +45,9 @@ ipcMain.handle('delete-roll-table', (event, index) => {
 });
 
 ipcMain.handle('update-roll-table', (event, index, tableData) => {
-  const dir = path.join(__dirname, 'json');
-  const files = fs.readdirSync(dir).filter(file => file.endsWith('.json'));
+  const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
   if (files[index]) {
-    const filePath = path.join(dir, files[index]);
+    const filePath = path.join(jsonDir, files[index]);
     tableData._id = tableData._id || path.basename(filePath, '.json'); // Ensure _id matches the file name
     fs.writeFileSync(filePath, JSON.stringify(tableData, null, 2)); // Update the file with new data
     return true;
@@ -66,12 +73,14 @@ ipcMain.handle('import-roll-table', (event, filePath) => {
       })),
     };
 
-    const newFilePath = path.join(__dirname, 'json', `imported-${Date.now()}.json`);
+    const newFilePath = path.join(jsonDir, `imported-${Date.now()}.json`);
     fs.writeFileSync(newFilePath, JSON.stringify(transformedTable, null, 2));
     return newFilePath;
   }
   throw new Error('File not found');
 });
+
+ipcMain.handle('get-user-data-path', () => userDataPath);
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
