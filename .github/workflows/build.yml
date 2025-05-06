@@ -29,11 +29,13 @@ jobs:
 
       # Step 4: Build the application
       - name: Build application
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run dist
 
       # Step 5: Upload build artifacts
       - name: Upload build artifacts
-        uses: actions/upload-artifact@c5a3d4f9b1d522a2721332c9f2a93cc6f3d0276d
+        uses: actions/upload-artifact@v3
         with:
           name: dnd-roll-tables-build
           path: dist/
