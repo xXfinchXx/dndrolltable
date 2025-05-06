@@ -7,8 +7,20 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
+      padding: 20px;
       background: rgb(221, 221, 221);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .container {
+      text-align: center;
+      width: 100%;
+      max-width: 600px;
     }
     .roll-table {
       margin-bottom: 20px;
@@ -43,21 +55,39 @@
       margin-bottom: 10px;
     }
     button {
-      padding: 5px 10px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
       cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      font-size: 14px;
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+    button:hover {
+      background-color: #0056b3;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    button:active {
+      background-color: #003f7f;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
 <body>
-  <h1>DnD Roll Tables</h1>
-  <div>
-    <label for="rollTableSelect">Select Roll Table:</label>
-    <select id="rollTableSelect"></select>
-    <button id="createTableBtn">Create New Roll Table</button>
-    <button id="clearResultsBtn">Clear Results</button>
-    <button id="importTableBtn">Import Foundry VTT Roll Table</button>
+  <div class="container">
+    <h1>DnD Roll Tables</h1>
+    <div>
+      <button id="createTableBtn">Create New Roll Table</button>
+      <button id="importTableBtn">Import Foundry VTT Roll Table</button>
+      <button id="clearResultsBtn">Clear Results</button>
+    </div>
+    <div>
+      <label for="rollTableSelect">Select Roll Table:</label>
+      <select id="rollTableSelect"></select>
+    </div>
+    <div id="tables"></div>
   </div>
-  <div id="tables"></div>
   <div id="createTableModal">
     <h2>Create New Roll Table</h2>
     <label for="tableTitle">Title:</label>

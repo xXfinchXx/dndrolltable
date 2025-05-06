@@ -122,6 +122,19 @@
       "spellId": "animal-shapes",
       "equipmentId": null,
       "magicItemId": null
+    },
+    {
+      "text": "",
+      "range": [
+        0
+      ],
+      "weight": 1,
+      "drawn": false,
+      "documentCollection": "RollTable",
+      "documentId": "fvtt-RollTable-dungeon-chaos-vuP5moqe42GXVgyi.json",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     }
   ],
   "_id": "roll-table-1746542646995"

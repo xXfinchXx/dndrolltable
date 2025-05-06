@@ -12,6 +12,7 @@ app.on('ready', () => {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
     },
+    autoHideMenuBar: true // Hide the default menu bar
   });
 
   mainWindow.loadFile('index.html');
