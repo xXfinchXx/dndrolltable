@@ -1,11 +1,46 @@
 {
   "name": "dnd-roll-tables",
   "version": "1.0.0",
+  "description": "DnD Roll Tables Application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --win"
   },
-  "dependencies": {
-    "electron": "^25.0.0"
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.example.dndrolltables",
+    "productName": "DnD Roll Tables",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!dist/**/*",
+      "!*.md",
+      "!*.log"
+    ],
+    "extraResources": [
+      {
+        "from": "json/",
+        "to": "json/",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
   }
 }
