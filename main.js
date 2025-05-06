@@ -7,7 +7,7 @@ const userDataPath = app.getPath('userData'); // Get the user-specific data dire
 const isDevelopment = process.env.NODE_ENV === 'development'; // Check if running in development mode
 const jsonDir = isDevelopment
   ? path.join(__dirname, 'json') // Use the local json folder in development
-  : path.join(userDataPath, 'json'); // Use the user-specific json folder in production
+  : path.join(process.resourcesPath, 'json'); // Use the /resources/json folder in production
 
 app.on('ready', () => {
   if (!fs.existsSync(jsonDir)) {

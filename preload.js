@@ -2,12 +2,15 @@ const { contextBridge, ipcRenderer } = require('electron');
 const fs = require('fs');
 const path = require('path');
 
+const jsonDir = process.env.NODE_ENV === 'development'
+  ? path.join(__dirname, 'json') // Use the local json folder in development
+  : path.join(process.resourcesPath, 'json'); // Use the /resources/json folder in production
+
 contextBridge.exposeInMainWorld('api', {
   loadRollTables: () => {
-    const dir = path.join(__dirname, 'json');
-    const files = fs.readdirSync(dir).filter(file => file.endsWith('.json'));
+    const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
     return files.map(file => {
-      const content = fs.readFileSync(path.join(dir, file), 'utf-8');
+      const content = fs.readFileSync(path.join(jsonDir, file), 'utf-8');
       return { name: file, data: JSON.parse(content) };
     });
   },
@@ -15,10 +18,9 @@ contextBridge.exposeInMainWorld('api', {
   updateRollTable: (index, tableData) => ipcRenderer.invoke('update-roll-table', index, tableData),
   deleteRollTable: (index) => ipcRenderer.invoke('delete-roll-table', index),
   getRollTableList: () => {
-    const dir = path.join(__dirname, 'json');
-    const files = fs.readdirSync(dir).filter(file => file.endsWith('.json'));
+    const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
     return files.map(file => {
-      const content = fs.readFileSync(path.join(dir, file), 'utf-8');
+      const content = fs.readFileSync(path.join(jsonDir, file), 'utf-8');
       const data = JSON.parse(content);
       return { id: data._id || file, name: data.name || file };
     });
