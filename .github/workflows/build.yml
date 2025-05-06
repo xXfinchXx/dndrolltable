@@ -35,7 +35,7 @@ jobs:
 
       # Step 5: Upload build artifacts
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: dnd-roll-tables-build
           path: dist/
