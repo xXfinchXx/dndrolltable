@@ -1,7 +1,7 @@
 {
   "name": "Wand of Randomized Polymorph",
   "img": "icons/svg/d20-grey.svg",
-  "description": "Targets the one that triggered the trap",
+  "description": "A table of random polymorphic effects triggered by a magical wand.",
   "results": [
     {
       "_id": "8ICttba0Np7GtDgy",

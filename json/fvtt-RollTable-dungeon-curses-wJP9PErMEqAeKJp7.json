@@ -651,7 +651,7 @@
       "_id": "6azdTcsLTKUc0BJh",
       "flags": {},
       "type": 0,
-      "text": "The cursed becomes lactose intolerant. Consuming any dairy leads to 1d4 hour(s) of insufferable gas &amp; diarrhea.",
+      "text": "The cursed becomes lactose intolerant. Consuming any dairy leads to 1d4 hour(s) of insufferable gas & diarrhea.",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -726,7 +726,7 @@
       "_id": "ciuxVS0x3ZcG6HGb",
       "flags": {},
       "type": 0,
-      "text": "Character’s known languages are randomly determined after a long rest. Roll 1d8 per standard language known &amp; 1d8 per exotic language known. You decide whether to exclude common from these rolls or not.",
+      "text": "Character’s known languages are randomly determined after a long rest. Roll 1d8 per standard language known & 1d8 per exotic language known. You decide whether to exclude common from these rolls or not.",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -1525,7 +1525,7 @@
       "systemVersion": "2.3.1"
     }
   },
-  "description": "",
+  "description": "A table of curses that can afflict adventurers exploring your world.",
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "2.3.1",

@@ -1,7 +1,7 @@
 {
   "name": "Potion of Greater Randomness",
   "img": "icons/svg/d20-grey.svg",
-  "description": "Roll 3 times",
+  "description": "Roll 3 times on this table and apply the results. If you roll the same result more than once, reroll until you get a different result.",
   "results": [
     {
       "_id": "DF0AV7bddN14ae35",

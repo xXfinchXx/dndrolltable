@@ -1,6 +1,6 @@
 {
-  "name": "Path of Wild Magic Surge",
-  "description": "",
+  "name": "Barbarian - Path of Wild Magic Surge",
+  "description": "A table of dramatic and powerful magical effects for your Wild Magic Barbarian instead of the basic one, perfect for high-stakes moments in gameplay.",
   "formula": "1d100",
   "results": [
     {

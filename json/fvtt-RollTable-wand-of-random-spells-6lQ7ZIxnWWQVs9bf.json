@@ -1,7 +1,7 @@
 {
   "name": "Wand of Random Spells",
   "img": "icons/svg/d20-grey.svg",
-  "description": "Spell Targets the one that triggered the trap",
+  "description": "A table of random spells cast by a chaotic wand, each with unique effects.",
   "results": [
     {
       "_id": "iMDczuoyCE6XmXDE",

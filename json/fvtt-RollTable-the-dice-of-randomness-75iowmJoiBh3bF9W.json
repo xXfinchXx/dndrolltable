@@ -1,7 +1,7 @@
 {
   "name": "The Dice of Randomness",
   "img": "icons/svg/d20-grey.svg",
-  "description": "Roller is decided by wheel of names",
+  "description": "A table of random and unpredictable effects triggered by rolling the dice of randomness.",
   "results": [
     {
       "_id": "BEPihSZa4ZjiXL9g",

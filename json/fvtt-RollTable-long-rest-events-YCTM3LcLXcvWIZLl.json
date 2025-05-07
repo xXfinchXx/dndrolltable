@@ -1519,7 +1519,7 @@
       "systemVersion": "2.3.1"
     }
   },
-  "description": "",
+  "description": "A random event that occurs while the party is camping. Roll 1d101 to determine the event.",
   "_stats": {
     "systemId": null,
     "systemVersion": null,

@@ -1,6 +1,7 @@
 {
   "name": "Activities at the Local Faire",
   "img": "icons/svg/d20-grey.svg",
+  "description": "A collection of fun and competitive activities at the local faire, ranging from contests of strength and dexterity to unique booths and performances.",
   "results": [
     {
       "_id": "7pC4PNT0tW7AP9bD",
@@ -1519,7 +1520,7 @@
       "systemVersion": "2.3.1"
     }
   },
-  "description": "",
+  
   "_stats": {
     "systemId": null,
     "systemVersion": null,

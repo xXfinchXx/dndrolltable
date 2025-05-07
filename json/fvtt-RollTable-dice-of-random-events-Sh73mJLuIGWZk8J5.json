@@ -1,7 +1,7 @@
 {
   "name": "Dice of Random Events",
   "img": "icons/svg/d20-grey.svg",
-  "description": "Roller is decided by wheel of names",
+  "description": "A table of random events triggered by rolling the dice, each with unique and surprising outcomes.",
   "results": [
     {
       "_id": "DtOHy6EUJ8Umwc5Y",

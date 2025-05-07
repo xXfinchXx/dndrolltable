@@ -1654,7 +1654,7 @@
       "systemVersion": "2.3.1"
     }
   },
-  "description": "",
+  "description": " A roll table for the effects of a night of drinking. Roll 1d110 to determine the effect.",
   "_stats": {
     "systemId": null,
     "systemVersion": null,

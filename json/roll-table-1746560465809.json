@@ -1,6 +1,6 @@
 {
-  "name": "Wild Magic Surges",
-  "description": "",
+  "name": "Wild Magic Surge Roll Table 1",
+  "description": "A table of 100 chaotic and unpredictable magical effects that occur when wild magic is unleashed.",
   "formula": "1d100",
   "results": [
     {
