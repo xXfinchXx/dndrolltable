@@ -7,11 +7,24 @@ const userDataPath = app.getPath('userData'); // Get the user-specific data dire
 const isDevelopment = process.env.NODE_ENV === 'development'; // Check if running in development mode
 const jsonDir = isDevelopment
   ? path.join(__dirname, 'json') // Use the local json folder in development
-  : path.join(process.resourcesPath, 'json'); // Use the /resources/json folder in production
+  : path.join(userDataPath, 'json'); // Use the userData/json folder in production
 
 app.on('ready', () => {
   if (!fs.existsSync(jsonDir)) {
     fs.mkdirSync(jsonDir, { recursive: true }); // Ensure the JSON directory exists
+  }
+
+  // Copy contents of the `json` folder to `userData/json` if not already copied
+  const sourceJsonDir = path.join(__dirname, 'json');
+  if (fs.existsSync(sourceJsonDir)) {
+    const files = fs.readdirSync(sourceJsonDir).filter(file => file.endsWith('.json'));
+    files.forEach(file => {
+      const sourceFile = path.join(sourceJsonDir, file);
+      const destFile = path.join(jsonDir, file);
+      if (!fs.existsSync(destFile)) {
+        fs.copyFileSync(sourceFile, destFile); // Copy file if it doesn't already exist
+      }
+    });
   }
 
   mainWindow = new BrowserWindow({

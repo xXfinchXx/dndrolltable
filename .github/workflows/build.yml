@@ -22,7 +22,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      # Step 3: Generate version in MMddyyyy.rr format          
+
+      # Step 3: Generate version in MMddyyyy.rr format
       - name: Generate version
         id: versioning
         run: |
@@ -45,6 +46,7 @@ jobs:
           git config user.email "actions@github.com"
           git add REVISION
           git commit -m "Bump revision to ${{ env.VERSION }}"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
@@ -60,7 +62,7 @@ jobs:
 
       # Step 7: Upload build artifacts with versioning
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4.6.2
+        uses: actions/upload-artv4.6.2act@v4.6.2
         with:
           name: dnd-roll-tables-build-${{ env.VERSION }}
           path: dist/

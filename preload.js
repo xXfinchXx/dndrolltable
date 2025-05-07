@@ -4,7 +4,7 @@ const path = require('path');
 
 const jsonDir = process.env.NODE_ENV === 'development'
   ? path.join(__dirname, 'json') // Use the local json folder in development
-  : path.join(process.resourcesPath, 'json'); // Use the /resources/json folder in production
+  : path.join(ipcRenderer.invoke('get-user-data-path'), 'json'); // Use the userData/json folder in production
 
 contextBridge.exposeInMainWorld('api', {
   loadRollTables: () => {
