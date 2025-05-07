@@ -1,3 +1,8 @@
+/**
+ * Renderer process for the DnD Roll Tables application.
+ * Manages the user interface, including creating, editing, and rolling on tables.
+ * Handles interactions with the main process via IPC and updates the DOM dynamically.
+ */
 window.addEventListener('DOMContentLoaded', () => {
     const tablesContainer = document.getElementById('tables');
     const rollTableSelect = document.getElementById('rollTableSelect');

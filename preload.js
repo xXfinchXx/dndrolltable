@@ -1,3 +1,8 @@
+/**
+ * Preload script for the DnD Roll Tables application.
+ * Exposes secure APIs to the renderer process for interacting with the main process
+ * and the file system, including loading, saving, and managing roll tables.
+ */
 const { contextBridge, ipcRenderer } = require('electron');
 const fs = require('fs');
 const path = require('path');

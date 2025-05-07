@@ -1,3 +1,8 @@
+/**
+ * Main Electron process for the DnD Roll Tables application.
+ * Handles application lifecycle events, window creation, and IPC communication
+ * for managing roll tables and interacting with the file system.
+ */
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const fs = require('fs');

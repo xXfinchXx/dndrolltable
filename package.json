@@ -1,7 +1,7 @@
 {
   "name": "dnd-roll-tables",
   "version": "1.0.4",
-  "description": "DnD Roll Tables Application",
+  "description": "Configuration and metadata for the DnD Roll Tables application. Includes dependencies, build scripts, and Electron packaging settings.",
   "main": "main.js",
   "author": "Richard Phillips",
   "license": "GPL-3.0",
