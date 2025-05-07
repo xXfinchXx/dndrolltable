@@ -590,9 +590,14 @@ window.addEventListener('DOMContentLoaded', () => {
         const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
         return files.map(file => {
           const filePath = path.join(jsonDir, file);
-          const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-          return { filePath, data };
-        });
+          try {
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+            return { filePath, data };
+          } catch (error) {
+            console.error(`Error parsing JSON file ${file}:`, error);
+            return null; // Skip invalid files
+          }
+        }).filter(Boolean); // Remove null entries
       } catch (error) {
         console.error('Error loading roll tables:', error);
         return [];

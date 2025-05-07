@@ -14,11 +14,28 @@ const jsonDir = isDevelopment
   ? path.join(__dirname, 'json') // Use the local json folder in development
   : path.join(userDataPath, 'json'); // Use the userData/json folder in production
 
+function validateAndFixJsonFiles() {
+  const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
+  files.forEach(file => {
+    const filePath = path.join(jsonDir, file);
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      JSON.parse(content); // Validate JSON
+    } catch (error) {
+      console.error(`Invalid JSON in file ${file}. Fixing...`);
+      const fixedContent = JSON.stringify({ name: "Untitled", description: "", formula: "1d20", results: [] }, null, 2);
+      fs.writeFileSync(filePath, fixedContent); // Replace with a default valid JSON structure
+    }
+  });
+}
+
 app.on('ready', () => {
   try {
     if (!fs.existsSync(jsonDir)) {
       fs.mkdirSync(jsonDir, { recursive: true }); // Ensure the JSON directory exists
     }
+
+    validateAndFixJsonFiles(); // Validate and fix JSON files
 
     // Copy contents of the `json` folder to `userData/json` if not already copied
     const sourceJsonDir = path.join(__dirname, 'json');
