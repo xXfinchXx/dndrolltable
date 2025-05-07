@@ -576,14 +576,19 @@ window.addEventListener('DOMContentLoaded', () => {
   
   contextBridge.exposeInMainWorld('api', {
     loadRollTables: () => {
-      const jsonDir = window.api.getUserDataPath('json');
-      if (!fs.existsSync(jsonDir)) return [];
-      const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
-      return files.map(file => {
-        const filePath = path.join(jsonDir, file);
-        const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        return { filePath, data };
-      });
+      try {
+        const jsonDir = window.api.getUserDataPath('json');
+        if (!fs.existsSync(jsonDir)) return [];
+        const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
+        return files.map(file => {
+          const filePath = path.join(jsonDir, file);
+          const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+          return { filePath, data };
+        });
+      } catch (error) {
+        console.error('Error loading roll tables:', error);
+        return [];
+      }
     },
     getUserDataPath: (subDir) => {
       const basePath = path.join(window.api.getUserDataBasePath(), subDir);

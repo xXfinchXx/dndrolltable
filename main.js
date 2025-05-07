@@ -10,34 +10,38 @@ const jsonDir = isDevelopment
   : path.join(userDataPath, 'json'); // Use the userData/json folder in production
 
 app.on('ready', () => {
-  if (!fs.existsSync(jsonDir)) {
-    fs.mkdirSync(jsonDir, { recursive: true }); // Ensure the JSON directory exists
-  }
+  try {
+    if (!fs.existsSync(jsonDir)) {
+      fs.mkdirSync(jsonDir, { recursive: true }); // Ensure the JSON directory exists
+    }
 
-  // Copy contents of the `json` folder to `userData/json` if not already copied
-  const sourceJsonDir = path.join(__dirname, 'json');
-  if (fs.existsSync(sourceJsonDir)) {
-    const files = fs.readdirSync(sourceJsonDir).filter(file => file.endsWith('.json'));
-    files.forEach(file => {
-      const sourceFile = path.join(sourceJsonDir, file);
-      const destFile = path.join(jsonDir, file);
-      if (!fs.existsSync(destFile)) {
-        fs.copyFileSync(sourceFile, destFile); // Copy file if it doesn't already exist
-      }
+    // Copy contents of the `json` folder to `userData/json` if not already copied
+    const sourceJsonDir = path.join(__dirname, 'json');
+    if (fs.existsSync(sourceJsonDir)) {
+      const files = fs.readdirSync(sourceJsonDir).filter(file => file.endsWith('.json'));
+      files.forEach(file => {
+        const sourceFile = path.join(sourceJsonDir, file);
+        const destFile = path.join(jsonDir, file);
+        if (!fs.existsSync(destFile)) {
+          fs.copyFileSync(sourceFile, destFile); // Copy file if it doesn't already exist
+        }
+      });
+    }
+
+    mainWindow = new BrowserWindow({
+      width: 800,
+      height: 800,
+      webPreferences: {
+        preload: path.join(__dirname, 'preload.js'),
+        nodeIntegration: true,
+      },
+      autoHideMenuBar: true // Hide the default menu bar
     });
+
+    mainWindow.loadFile('index.html');
+  } catch (error) {
+    console.error('Error during app initialization:', error);
   }
-
-  mainWindow = new BrowserWindow({
-    width: 800,
-    height: 800,
-    webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
-      nodeIntegration: true,
-    },
-    autoHideMenuBar: true // Hide the default menu bar
-  });
-
-  mainWindow.loadFile('index.html');
 });
 
 ipcMain.handle('save-roll-table', (event, tableData) => {

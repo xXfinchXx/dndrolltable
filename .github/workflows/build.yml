@@ -24,21 +24,12 @@ jobs:
           node-version: 18
 
       # Step 3: Generate version in MMddyyyy.rr format
-      - name: Generate version
-        id: versioning
+      - name: Update package.json version
         shell: pwsh
         run: |
-          $DATE = (Get-Date -Format "MMddyyyy")
-          if (Test-Path "REVISION") {
-            $REVISION = Get-Content -Path "REVISION"
-            $REVISION = "{0:D2}" -f ([int]$REVISION + 1)
-          } else {
-            $REVISION = "01"
-          }
-          $VERSION = "$DATE.$REVISION"
-          Set-Content -Path "REVISION" -Value $REVISION
-          echo "VERSION=$VERSION" | Out-File -FilePath $env:GITHUB_ENV -Append
-          echo "Generated version: $VERSION"
+          $PACKAGE_JSON = Get-Content -Path "package.json" -Raw | ConvertFrom-Json
+          $PACKAGE_JSON.version = "${{ env.VERSION }}"
+          $PACKAGE_JSON | ConvertTo-Json -Depth 10 | Set-Content -Path "package.json"
 
       # Step 4: Commit version and revision bump
       - name: Commit version bump
@@ -59,7 +50,7 @@ jobs:
       - name: Build application
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npm run dist
+        run: npm run build
 
       # Step 7: Upload build artifacts with versioning
       - name: Upload build artifacts
