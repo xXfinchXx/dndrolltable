@@ -29,6 +29,29 @@ function validateAndFixJsonFiles() {
   });
 }
 
+function updateUserDataFiles() {
+  const sourceJsonDir = path.join(__dirname, 'json');
+  if (fs.existsSync(sourceJsonDir)) {
+    const files = fs.readdirSync(sourceJsonDir).filter(file => file.endsWith('.json'));
+    files.forEach(file => {
+      const sourceFile = path.join(sourceJsonDir, file);
+      const destFile = path.join(jsonDir, file);
+      if (fs.existsSync(destFile)) {
+        try {
+          const sourceContent = JSON.parse(fs.readFileSync(sourceFile, 'utf-8'));
+          const destContent = JSON.parse(fs.readFileSync(destFile, 'utf-8'));
+          const updatedContent = { ...destContent, ...sourceContent }; // Merge source into destination
+          fs.writeFileSync(destFile, JSON.stringify(updatedContent, null, 2));
+        } catch (error) {
+          console.error(`Error updating file ${file}:`, error);
+        }
+      } else {
+        fs.copyFileSync(sourceFile, destFile); // Copy file if it doesn't already exist
+      }
+    });
+  }
+}
+
 app.on('ready', () => {
   try {
     if (!fs.existsSync(jsonDir)) {
@@ -36,19 +59,7 @@ app.on('ready', () => {
     }
 
     validateAndFixJsonFiles(); // Validate and fix JSON files
-
-    // Copy contents of the `json` folder to `userData/json` if not already copied
-    const sourceJsonDir = path.join(__dirname, 'json');
-    if (fs.existsSync(sourceJsonDir)) {
-      const files = fs.readdirSync(sourceJsonDir).filter(file => file.endsWith('.json'));
-      files.forEach(file => {
-        const sourceFile = path.join(sourceJsonDir, file);
-        const destFile = path.join(jsonDir, file);
-        if (!fs.existsSync(destFile)) {
-          fs.copyFileSync(sourceFile, destFile); // Copy file if it doesn't already exist
-        }
-      });
-    }
+    updateUserDataFiles(); // Update user data files
 
     mainWindow = new BrowserWindow({
       width: 800,
