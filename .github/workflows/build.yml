@@ -28,7 +28,7 @@ jobs:
         id: versioning
         run: |
           DATE=$(date +'%m%d%Y')
-          if [ -f REVISION ]; then
+          if ( -f REVISION ); then
             REVISION=$(cat REVISION)
             REVISION=$(printf "%02d" $((10#$REVISION + 1)))
           else
