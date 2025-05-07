@@ -3,7 +3,10 @@ window.addEventListener('DOMContentLoaded', () => {
     const rollTableSelect = document.getElementById('rollTableSelect');
     const createTableBtn = document.getElementById('createTableBtn');
     const rollTables = window.api.loadRollTables();
-  
+
+    // Sort roll tables alphabetically by name
+    rollTables.sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''));
+
     rollTables.forEach((table, index) => {
       const option = document.createElement('option');
       option.value = index;
