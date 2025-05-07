@@ -22,20 +22,45 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      # Step 3: Generate version in MMddyyyy.rr format          
+      - name: Generate version
+        id: versioning
+        run: |
+          DATE=$(date +'%m%d%Y')
+          if [ -f REVISION ]; then
+            REVISION=$(cat REVISION)
+            REVISION=$(printf "%02d" $((10#$REVISION + 1)))
+          else
+            REVISION="01"
+          fi
+          VERSION="$DATE.$REVISION"
+          echo $REVISION > REVISION
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "Generated version: $VERSION"
 
-      # Step 3: Install dependencies
+      # Step 4: Commit version and revision bump
+      - name: Commit version bump
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add REVISION
+          git commit -m "Bump revision to ${{ env.VERSION }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # Step 5: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Build the application
+      # Step 6: Build the application
       - name: Build application
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run dist
 
-      # Step 5: Upload build artifacts
+      # Step 7: Upload build artifacts with versioning
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: dnd-roll-tables-build
+          name: dnd-roll-tables-build-${{ env.VERSION }}
           path: dist/
