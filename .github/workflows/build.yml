@@ -27,9 +27,7 @@ jobs:
       - name: Update package.json version
         shell: pwsh
         run: |
-          $PACKAGE_JSON = Get-Content -Path "package.json" -Raw | ConvertFrom-Json
-          $PACKAGE_JSON.version = "${{ env.VERSION }}"
-          $PACKAGE_JSON | ConvertTo-Json -Depth 10 | Set-Content -Path "package.json"
+          npm version patch --no-git-tag-version
 
       # Step 4: Commit version and revision bump
       - name: Commit version bump
