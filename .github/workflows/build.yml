@@ -28,6 +28,8 @@ jobs:
         shell: pwsh
         run: |
           npm version patch --no-git-tag-version
+          $version = (Get-Content package.json | ConvertFrom-Json).version
+          echo "VERSION=$version" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       # Step 4: Commit version and revision bump
       - name: Commit version bump
@@ -35,7 +37,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add REVISION
-          git commit -m "Bump revision to ${{ env.VERSION }}"
+          git commit -m "Bump revision to $VERSION"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
