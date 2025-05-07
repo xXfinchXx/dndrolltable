@@ -1,5 +1,5 @@
 {
-  "name": "Wild Magic Surge Table 2",
+  "name": "Wild Magic Surge Roll Table 2",
   "description": "161 More Wild Magic Surges for your enjoyment!",
   "formula": "1d161",
   "results": [
@@ -1452,5 +1452,6 @@
       "weight": 1,
       "drawn": false
     }
-  ]
+  ],
+  "_id": "roll-table-20250507123129"
 }

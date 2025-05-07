@@ -19,11 +19,20 @@ function validateAndFixJsonFiles() {
   files.forEach(file => {
     const filePath = path.join(jsonDir, file);
     try {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      JSON.parse(content); // Validate JSON
+      const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      if (!content._id) {
+        content._id = path.basename(file, '.json'); // Use the filename (without extension) as the default ID
+        fs.writeFileSync(filePath, JSON.stringify(content, null, 2)); // Save the updated file
+      }
     } catch (error) {
       console.error(`Invalid JSON in file ${file}. Fixing...`);
-      const fixedContent = JSON.stringify({ name: "Untitled", description: "", formula: "1d20", results: [] }, null, 2);
+      const fixedContent = JSON.stringify({ 
+        _id: path.basename(file, '.json'), 
+        name: "Untitled", 
+        description: "", 
+        formula: "1d20", 
+        results: [] 
+      }, null, 2);
       fs.writeFileSync(filePath, fixedContent); // Replace with a default valid JSON structure
     }
   });
@@ -126,15 +135,19 @@ ipcMain.handle('delete-roll-table', (event, index) => {
   throw new Error('Roll table not found');
 });
 
-ipcMain.handle('update-roll-table', (event, index, tableData) => {
+ipcMain.handle('update-roll-table', (event, tableId, tableData) => {
   const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
-  if (files[index]) {
-    const filePath = path.join(jsonDir, files[index]);
-    tableData._id = tableData._id || path.basename(filePath, '.json'); // Ensure _id matches the file name
+  const fileToUpdate = files.find(file => {
+    const content = JSON.parse(fs.readFileSync(path.join(jsonDir, file), 'utf-8'));
+    return content._id === tableId;
+  });
+
+  if (fileToUpdate) {
+    const filePath = path.join(jsonDir, fileToUpdate);
     fs.writeFileSync(filePath, JSON.stringify(tableData, null, 2)); // Update the file with new data
     return true;
   }
-  throw new Error('Roll table not found');
+  throw new Error(`Roll table with ID "${tableId}" not found`);
 });
 
 ipcMain.handle('import-roll-table', (event, filePath) => {

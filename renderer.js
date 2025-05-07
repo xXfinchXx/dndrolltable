@@ -360,8 +360,15 @@ window.addEventListener('DOMContentLoaded', () => {
       const editButton = document.createElement('button');
       editButton.textContent = 'Edit';
       editButton.addEventListener('click', async () => {
-        currentEditTableIndex = index;
         const table = rollTables[index].data;
+        const tableId = table._id; // Use the `_id` value from the JSON
+    
+        if (!tableId) {
+          alert('This table does not have a valid ID.');
+          return;
+        }
+    
+        currentEditTableIndex = tableId; // Set the current edit table index to the `_id`
     
         // Populate the edit modal fields
         document.getElementById('editTableTitle').value = table.name;
@@ -553,7 +560,7 @@ window.addEventListener('DOMContentLoaded', () => {
       });
   
       const updatedTable = {
-        ...rollTables[currentEditTableIndex].data,
+        ...rollTables.find(table => table.data._id === currentEditTableIndex).data,
         name: title,
         description: summary, // Save the updated description
         formula,
@@ -561,7 +568,7 @@ window.addEventListener('DOMContentLoaded', () => {
       };
   
       try {
-        await window.api.updateRollTable(currentEditTableIndex, updatedTable);
+        await window.api.updateRollTable(currentEditTableIndex, updatedTable); // Use `_id` to update the correct file
         alert('Roll table updated successfully!');
         editTableModal.style.display = 'none';
         modalOverlay.style.display = 'none';

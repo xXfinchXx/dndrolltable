@@ -26,7 +26,7 @@ const path = require('path');
       });
     },
     saveRollTable: (tableData) => ipcRenderer.invoke('save-roll-table', tableData),
-    updateRollTable: (index, tableData) => ipcRenderer.invoke('update-roll-table', index, tableData),
+    updateRollTable: (tableId, tableData) => ipcRenderer.invoke('update-roll-table', tableId, tableData),
     deleteRollTable: (index) => ipcRenderer.invoke('delete-roll-table', index),
     deleteRollTableByName: (name) => ipcRenderer.invoke('delete-roll-table-by-name', name),
     getRollTableList: () => {
