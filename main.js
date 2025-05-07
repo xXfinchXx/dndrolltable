@@ -52,12 +52,44 @@ function updateUserDataFiles() {
   }
 }
 
+function removeDuplicateRollTables() {
+  const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
+  const tableMap = new Map();
+
+  files.forEach(file => {
+    const filePath = path.join(jsonDir, file);
+    try {
+      const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      const tableName = content.name;
+
+      if (tableMap.has(tableName)) {
+        const existingFile = tableMap.get(tableName);
+        const existingStats = fs.statSync(existingFile);
+        const currentStats = fs.statSync(filePath);
+
+        // Keep the newest file
+        if (currentStats.mtime > existingStats.mtime) {
+          fs.unlinkSync(existingFile); // Remove the older file
+          tableMap.set(tableName, filePath);
+        } else {
+          fs.unlinkSync(filePath); // Remove the current file if it's older
+        }
+      } else {
+        tableMap.set(tableName, filePath);
+      }
+    } catch (error) {
+      console.error(`Error processing file ${file}:`, error);
+    }
+  });
+}
+
 app.on('ready', () => {
   try {
     if (!fs.existsSync(jsonDir)) {
       fs.mkdirSync(jsonDir, { recursive: true }); // Ensure the JSON directory exists
     }
 
+    removeDuplicateRollTables(); // Remove duplicate roll tables
     validateAndFixJsonFiles(); // Validate and fix JSON files
     updateUserDataFiles(); // Update user data files
 
@@ -78,7 +110,7 @@ app.on('ready', () => {
 });
 
 ipcMain.handle('save-roll-table', (event, tableData) => {
-  tableData._id = tableData._id || `roll-table-${Date.now()}`; // Ensure _id is set
+  tableData._id = tableData._id || `created-roll-table-${Date.now()}`; // Prefix with 'created-roll-table'
   const filePath = path.join(jsonDir, `${tableData._id}.json`);
   fs.writeFileSync(filePath, JSON.stringify(tableData, null, 2)); // Save the table data to the file
   return filePath;
@@ -125,10 +157,35 @@ ipcMain.handle('import-roll-table', (event, filePath) => {
 
     const newFilePath = path.join(jsonDir, `imported-${Date.now()}.json`);
     fs.writeFileSync(newFilePath, JSON.stringify(transformedTable, null, 2));
-    return newFilePath;
+
+    return loadAllRollTables(); // Return the updated list of roll tables
   }
   throw new Error('File not found');
 });
+
+ipcMain.handle('delete-roll-table-by-name', (event, name) => {
+  const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
+  const fileToDelete = files.find(file => {
+    const content = JSON.parse(fs.readFileSync(path.join(jsonDir, file), 'utf-8'));
+    return content.name === name;
+  });
+
+  if (fileToDelete) {
+    const filePath = path.join(jsonDir, fileToDelete);
+    fs.unlinkSync(filePath); // Delete the file
+    return true;
+  }
+  throw new Error(`Roll table with name "${name}" not found`);
+});
+
+function loadAllRollTables() {
+  const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
+  return files.map(file => {
+    const filePath = path.join(jsonDir, file);
+    const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return { filePath, data: content };
+  });
+}
 
 ipcMain.handle('get-user-data-path', () => userDataPath);
 

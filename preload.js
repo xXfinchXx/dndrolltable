@@ -28,6 +28,7 @@ const path = require('path');
     saveRollTable: (tableData) => ipcRenderer.invoke('save-roll-table', tableData),
     updateRollTable: (index, tableData) => ipcRenderer.invoke('update-roll-table', index, tableData),
     deleteRollTable: (index) => ipcRenderer.invoke('delete-roll-table', index),
+    deleteRollTableByName: (name) => ipcRenderer.invoke('delete-roll-table-by-name', name),
     getRollTableList: () => {
       const files = fs.readdirSync(jsonDir).filter(file => file.endsWith('.json'));
       return files.map(file => {

@@ -20,20 +20,32 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   
     rollTableSelect.addEventListener('change', () => {
-      const selectedTable = rollTables[rollTableSelect.value].data;
-      displayTable(selectedTable, rollTableSelect.value);
+      const selectedTable = rollTables[rollTableSelect.value]?.data;
+      if (selectedTable) {
+        displayTable(selectedTable, rollTableSelect.value);
+      }
     });
   
-    createTableBtn.addEventListener('click', () => {
+    createTableBtn.addEventListener('click', async () => {
       const newTable = {
         name: 'New Roll Table',
         description: '',
         formula: '1d20',
         results: [],
       };
-      const filePath = window.api.saveRollTable(newTable);
-      alert(`New roll table created: ${filePath}`);
-      location.reload(); // Reload to reflect the new table
+    
+      try {
+        const filePath = await window.api.saveRollTable(newTable);
+        alert(`New roll table created: ${filePath}`);
+    
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Ensure the file saves
+        const updatedTables = await window.api.loadRollTables(true); // Pass a flag to force reload
+        refreshRollTables(updatedTables);
+        rollTableSelect.value = updatedTables.length - 1; // Select new table
+        displayTable(updatedTables[updatedTables.length - 1].data, updatedTables.length - 1);
+      } catch (error) {
+        alert(`Failed to create roll table: ${error.message}`);
+      }
     });
   
     function displayTable(table, index) {
@@ -66,10 +78,22 @@ window.addEventListener('DOMContentLoaded', () => {
       const deleteButton = document.createElement('button');
       deleteButton.textContent = 'Delete';
       deleteButton.addEventListener('click', () => {
-        if (confirm(`Are you sure you want to delete the roll table "${table.name}"?`)) {
-          window.api.deleteRollTable(index).then(() => {
+        const selectedIndex = rollTableSelect.selectedIndex; // Get the selected table index
+        const selectedTable = rollTables[selectedIndex]?.data;
+      
+        if (selectedTable && confirm(`Are you sure you want to delete the roll table "${selectedTable.name}"?`)) {
+          window.api.deleteRollTableByName(selectedTable.name).then(() => {
             alert('Roll table deleted successfully!');
-            location.reload(); // Reload to reflect the deletion
+            rollTables.splice(selectedIndex, 1); // Remove the deleted table from the list
+            refreshRollTables(rollTables); // Refresh the dropdown and UI
+      
+            // Automatically select the first table if available
+            if (rollTables.length > 0) {
+              rollTableSelect.value = 0;
+              displayTable(rollTables[0].data, 0);
+            } else {
+              tablesContainer.innerHTML = ''; // Clear the table display if no tables remain
+            }
           }).catch(error => {
             alert(`Failed to delete roll table: ${error.message}`);
           });
@@ -338,8 +362,10 @@ window.addEventListener('DOMContentLoaded', () => {
       editButton.addEventListener('click', async () => {
         currentEditTableIndex = index;
         const table = rollTables[index].data;
+    
+        // Populate the edit modal fields
         document.getElementById('editTableTitle').value = table.name;
-        document.getElementById('editTableSummary').value = table.description || '';
+        document.getElementById('editTableSummary').value = table.description || ''; // Allow editing description
         document.getElementById('editTableFormula').value = table.formula;
         editResultsContainer.innerHTML = '';
     
@@ -501,7 +527,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
     saveEditTableBtn.addEventListener('click', async () => {
       const title = document.getElementById('editTableTitle').value;
-      const summary = document.getElementById('editTableSummary').value; // Allow HTML
+      const summary = document.getElementById('editTableSummary').value; // Save edited description
       const formula = document.getElementById('editTableFormula').value;
   
       const results = Array.from(editResultsContainer.getElementsByClassName('result')).map(resultDiv => {
@@ -529,7 +555,7 @@ window.addEventListener('DOMContentLoaded', () => {
       const updatedTable = {
         ...rollTables[currentEditTableIndex].data,
         name: title,
-        description: summary, // Save HTML
+        description: summary, // Save the updated description
         formula,
         results,
       };
@@ -570,9 +596,11 @@ window.addEventListener('DOMContentLoaded', () => {
       const file = event.target.files[0];
       if (file) {
         try {
-          const filePath = await window.api.importRollTable(file.path);
-          alert(`Roll table imported successfully: ${filePath}`);
-          location.reload(); // Reload to reflect the imported table
+          const updatedTables = await window.api.importRollTable(file.path);
+          alert('Roll table imported successfully!');
+          refreshRollTables(updatedTables); // Refresh the dropdown and UI
+          rollTableSelect.value = updatedTables.length - 1; // Select the newly imported table
+          displayTable(updatedTables[updatedTables.length - 1].data, updatedTables.length - 1); // Display the imported table
         } catch (error) {
           alert(`Failed to import roll table: ${error.message}`);
         }
@@ -580,6 +608,22 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     
     document.body.appendChild(importFileInput);
+
+    function refreshRollTables(updatedTables) {
+      rollTableSelect.innerHTML = ''; // Clear the dropdown
+      updatedTables.sort((a, b) => (a.data.name || '').localeCompare(b.data.name || '')); // Sort alphabetically
+    
+      updatedTables.forEach((table, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        option.textContent = table.data.name || `Table ${index + 1}`;
+        rollTableSelect.appendChild(option);
+      });
+    
+      if (updatedTables.length > 0) {
+        displayTable(updatedTables[0].data, 0); // Display the first table by default
+      }
+    }
   });
   
   contextBridge.exposeInMainWorld('api', {
