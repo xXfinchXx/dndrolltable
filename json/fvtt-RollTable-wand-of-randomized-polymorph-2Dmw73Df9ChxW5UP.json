@@ -1,0 +1,361 @@
+{
+  "name": "Wand of Randomized Polymorph",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Targets the one that triggered the trap",
+  "results": [
+    {
+      "_id": "8ICttba0Np7GtDgy",
+      "type": 0,
+      "text": "You polymorph yourself into a Bat",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lgdhmLwqSqZdi7au",
+      "type": 0,
+      "text": "You polymorph the target into an Ankheg",
+      "weight": 1,
+      "range": [
+        2,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zFjksAkLfkBoTlGx",
+      "type": 0,
+      "text": "You polymorph the target into a Dire Wolf",
+      "weight": 1,
+      "range": [
+        6,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "4dX8qnz05TXR9mhQ",
+      "type": 0,
+      "text": "You polymorph the target into a Couatl",
+      "weight": 1,
+      "range": [
+        11,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "dD3OeYfox3qy5MOZ",
+      "type": 0,
+      "text": "You polymorph the target into a Goat",
+      "weight": 1,
+      "range": [
+        16,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ZY43xkPiaSefxdoe",
+      "type": 0,
+      "text": "You polymorph the target into a Quasit",
+      "weight": 1,
+      "range": [
+        21,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "F5YjVeohC3ZDOvvD",
+      "type": 0,
+      "text": "You polymorph the target into a Camel",
+      "weight": 1,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Nz9gXySaXLwaG10X",
+      "type": 0,
+      "text": "You polymorph the target into a Blink Dog",
+      "weight": 1,
+      "range": [
+        31,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "NsoO00Vmwy1ryEej",
+      "type": 0,
+      "text": "You polymorph the target into an Elephant",
+      "weight": 1,
+      "range": [
+        36,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "mgMAWHAIMpdwKOuC",
+      "type": 0,
+      "text": "You polymorph the target into a Nothic",
+      "weight": 1,
+      "range": [
+        41,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "mx74r305e7LS1tv9",
+      "type": 0,
+      "text": "You polymorph the target into a Weasel",
+      "weight": 1,
+      "range": [
+        46,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "AwNFxXfgHr1R2Pg9",
+      "type": 0,
+      "text": "You polymorph the target into a Cockatrice",
+      "weight": 1,
+      "range": [
+        51,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lPWxb7ftYT0e1PpU",
+      "type": 0,
+      "text": "You polymorph the target into a Giant Scorpion",
+      "weight": 1,
+      "range": [
+        56,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "8t4Oa2u0PQzBrMl4",
+      "type": 0,
+      "text": "You polymorph the target into a Gelatinous Cube",
+      "weight": 1,
+      "range": [
+        61,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "LANx7mBsZo3ZHh1u",
+      "type": 0,
+      "text": "You polymorph the target into a Giant Fire Beetle",
+      "weight": 1,
+      "range": [
+        66,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "oVU56fVMw2Opalul",
+      "type": 0,
+      "text": "You polymorph the target into a Pseudodragon",
+      "weight": 1,
+      "range": [
+        71,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ppuj9h9Yj0az67ia",
+      "type": 0,
+      "text": "You polymorph the target into a Giant Centipede",
+      "weight": 1,
+      "range": [
+        76,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "PBKxkY0j3uNScVLG",
+      "type": 0,
+      "text": "You polymorph the target into an Awakened Tree",
+      "weight": 1,
+      "range": [
+        81,
+        85
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IyjhcKklGy4AhixA",
+      "type": 0,
+      "text": "You polymorph the target into a Rhinoceros",
+      "weight": 1,
+      "range": [
+        86,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vCPvHcsb1qI2rCgr",
+      "type": 0,
+      "text": "You polymorph the target into a Twig Blight",
+      "weight": 1,
+      "range": [
+        91,
+        95
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Nb0batS1SUjaIqsy",
+      "type": 0,
+      "text": "You polymorph the target into a Baboon",
+      "weight": 1,
+      "range": [
+        96,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "o3JhNYsJHE0l3rNF",
+      "type": 0,
+      "text": "You polymorph yourself into a Tyrannosaurus Rex",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "KFbleWEyAAfOafHH",
+  "flags": {
+    "scene-packer": {
+      "hash": "780d0e86154f37d9ea2025b1aec9d093151717ea",
+      "sourceId": "RollTable.2Dmw73Df9ChxW5UP"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

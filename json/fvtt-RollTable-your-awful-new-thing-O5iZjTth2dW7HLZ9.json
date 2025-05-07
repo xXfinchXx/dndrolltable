@@ -1,0 +1,997 @@
+{
+  "name": "Your Awful New Thing",
+  "img": "icons/svg/d20-grey.svg",
+  "results": [
+    {
+      "_id": "BMBd2IW5JnTNxGHH",
+      "type": 0,
+      "text": "A fresh, cold pint of ale. Suspicious...",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "djH1ljUVGzgGM1gh",
+      "type": 0,
+      "text": "A bottle of very strong glue made from pitch and human bone dust.",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ReVr0N3XLuMA7eSn",
+      "type": 0,
+      "text": "A skeleton key. Made from real skeletons.",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zmhexr4aEkaiA6Kb",
+      "type": 0,
+      "text": "A clay pot. Inside is a huge red ruby made of glass.",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "kBufHEs6MUcQOuJC",
+      "type": 0,
+      "text": "A pair of brass knuckles made from real knuckles.",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "SuuhqHHK2x7MwyqR",
+      "type": 0,
+      "text": "A pile of bones so old that even a sneeze turns them to dust.",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "LiLem96iVNbox2IF",
+      "type": 0,
+      "text": "A small pile of rocks. Small and rocky.",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "dCMiGAHp1wY1zJzy",
+      "type": 0,
+      "text": "A litter of feral kittens living in the chest cavity of a desiccated corpse. Each one more vicious than the last.",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "xiCmDjnPFqOm7Zoc",
+      "type": 0,
+      "text": "A book of dirty dungeon jokes.",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "XaM7sVAb88yugh5t",
+      "type": 0,
+      "text": "A thick ball of tar. Sticky and bally.",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "B2tD3EPubIHeSxfP",
+      "type": 0,
+      "text": "A reflective silver skull. Big enough to wear over your own head.",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "qUOET3oBswVSnhCp",
+      "type": 0,
+      "text": "A box of earrings. Seems from the ear-bits that they were likely torn off.",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Ok8cacyjjVCN56Bb",
+      "type": 0,
+      "text": "An old book on dungeon care and maintenance. Contains a hand-drawn map of the",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "eBi1eF1iesN3VSBY",
+      "type": 0,
+      "text": "Fifty feet of coiled steel-infused rope. Much heavier and much stronger than normal rope.",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ZgZQaIrdwlQgmVX5",
+      "type": 0,
+      "text": "A spool of very strong and nearly invisible thread.",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ZJrwbpeQcQS1FAya",
+      "type": 0,
+      "text": "A wooden puzzlebox. If the puzzle is solved, a black finger slides out. Whoever it points at begins to suffocate.",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "YtS7gnTiacPglDUO",
+      "type": 0,
+      "text": "A smugglers kit containing a cool disguise, a snorkel, and a spring-loaded knife.",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "jckAOn5KYqSAan3w",
+      "type": 0,
+      "text": "A magical self-playing violin. You've heard better.",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "o5saXdqwPHAFZiCh",
+      "type": 0,
+      "text": "A flayed head, perfectly preserved in pitch.",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "GmJg9x83uOK9zPOO",
+      "type": 0,
+      "text": "A pink bottle shaped like a cloud. The goop inside will make water very bubbly.",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "WCElj1hatY0Wusq3",
+      "type": 0,
+      "text": "An executioner's uniform, complete with terrifying hood.",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IlpNaL8LkwER2336",
+      "type": 0,
+      "text": "A glass skull with a glowing fish swimming around inside of it. Consuming the fish will make you glow magically for 2d8 hours.",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ntwpi9aeG7zKqS0Z",
+      "type": 0,
+      "text": "A thin metal tray with a variety of torture implements on it. There's a brightly colored pink bear painted on it.",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zbFFylyYUc1b6iQT",
+      "type": 0,
+      "text": "A prisoner's diary. Begins with hope and descends into hopeless madness.",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Uw8CZmbrhP1mDhyc",
+      "type": 0,
+      "text": "A field of strange, subterranean corn.",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "tqf1WmBMYxusrTot",
+      "type": 0,
+      "text": "A rotten cake with a metal shiv stashed in the middle.",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "mZHLxPmQsGxkonyj",
+      "type": 0,
+      "text": "A yelling horn. Yell into one side and your yell comes out the other.",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "p13Dce6rZivIbrsN",
+      "type": 0,
+      "text": "A wind-up toy of an axe-murderer. Makes a slight whirring and clanking sound as the axe swings.",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "RHT5QPjms53DIHSb",
+      "type": 0,
+      "text": "A few small tins of food. All fresh but the one with botulism.",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "qnerXJ0Q4pI08RjQ",
+      "type": 0,
+      "text": "An ossified cupcake. Eat it if you dare.",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "5BYVxvWFxGPDXIeB",
+      "type": 0,
+      "text": "A set of heavy duty chain links which can be used to mend large chains.",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "6bii7yO2LrsZVkjy",
+      "type": 0,
+      "text": "A giant old rusted axe with a name carved into the handle: \"Thorn.\"",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "2JzKDnPxlDZdYKRv",
+      "type": 0,
+      "text": "A fake nose. Squeaks when squeezed.",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Kw6AFA5yG88nfMLS",
+      "type": 0,
+      "text": "A millipede with a smiling human face.",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "90War0s2vkV3Vd3T",
+      "type": 0,
+      "text": "A strange piece of chalk. Drawing something makes it real. Very little is left.",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0gE7V4BX04Kwb9B6",
+      "type": 0,
+      "text": "A lantern with flesh shades. Casts an eerie red light.",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "1ESVgj6xDWWgFwdm",
+      "type": 0,
+      "text": "A glass harmonica filled with a sugary dark liquid.",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "bJp89bMp2yJQV5Kk",
+      "type": 0,
+      "text": "A bowling pin with one very obvious blood stain on it.",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "pyQve0TYE3MMAXHk",
+      "type": 0,
+      "text": "A pile of discarded clothes with varying colors and designs.",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "UrOVq8lYEh5HUKfS",
+      "type": 0,
+      "text": "A dead feral ferret with four broken feet.",
+      "weight": 1,
+      "range": [
+        40,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zr9uxd2nccwAsrK8",
+      "type": 0,
+      "text": "A metal globe with the word \"GAIA\" carved into it. It looks like it has been burnt and broken.",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "x3dThhRNpjfSwPrA",
+      "type": 0,
+      "text": "A strange black death-fungus growing on some bone. If eaten, can cause either death",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "J8U2tko3EYFLp7SM",
+      "type": 0,
+      "text": "A small box of crucial medical supplies. Strong splints, bandages, and alcohol.",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "uxogG9af31sDWRke",
+      "type": 0,
+      "text": "A small potted plant. Maybe carnivorous? It tries to nip at your fingers.",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ibKNQKjlzqhAIjtU",
+      "type": 0,
+      "text": "Two daggers fused together at the hilt. A double dagger.",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "rg1ZdbU0w5ZUVMQF",
+      "type": 0,
+      "text": "A magical handkerchief. Allows you to blow your nose or sneeze in dead silence.",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "la7BOVEsVoWvwBjs",
+      "type": 0,
+      "text": "A carpet knitted together from human hair.",
+      "weight": 1,
+      "range": [
+        47,
+        47
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vZAcNX7uS7TJT8KJ",
+      "type": 0,
+      "text": "An old box of very long nails.",
+      "weight": 1,
+      "range": [
+        48,
+        48
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "8WNHfLF9XbpOao65",
+      "type": 0,
+      "text": "A small black pen which can write on any surface.",
+      "weight": 1,
+      "range": [
+        49,
+        49
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "03mcAUH5zH6OIVNL",
+      "type": 0,
+      "text": "A broken hand-mirror.",
+      "weight": 1,
+      "range": [
+        50,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "I0aZlJdX5xyOIE7M",
+      "type": 0,
+      "text": "A really nice doorstopper. This thing looks like it could hold open a door pretty well.",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "6atRoF446cgM9ngX",
+      "type": 0,
+      "text": "A beautiful wicker basket full of human hearts.",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "V5YYFdUQLm35HuBZ",
+      "type": 0,
+      "text": "A stick with a strong magnet at the end.",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "VoFLMJ0jh8eaym7p",
+      "type": 0,
+      "text": "An iron mask with a grim skull visage. If worn, can not be removed by non-magical means.",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "XOF5PG0kODzzGvVI",
+      "type": 0,
+      "text": "A cinderblock mimic.",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "nSl7xhkOldIDiLZl",
+      "type": 0,
+      "text": "A prisoner's set of instruments. Skin-drum, gut lute, and bone flute.",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "MkMdY2Ylojerdkx5",
+      "type": 0,
+      "text": "A large glass vessel of plum cider. Home brewed and tart.",
+      "weight": 1,
+      "range": [
+        57,
+        57
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "dFbyoNMtQQciS3zg",
+      "type": 0,
+      "text": "A very effective set of earmuffs. Keeps the screaming down.",
+      "weight": 1,
+      "range": [
+        58,
+        58
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "z6fIugXRvHsFMjp2",
+      "type": 0,
+      "text": "A glass eye. The owner probably wants this back.",
+      "weight": 1,
+      "range": [
+        59,
+        59
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "oeeiuWbYRnyhmgl6",
+      "type": 0,
+      "text": "A tiny hellish terrarium.",
+      "weight": 1,
+      "range": [
+        60,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ScIwIv6i5gDnYrUQ",
+      "type": 0,
+      "text": "A goblin outhouse.",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "aq6mC70CIcACKtt7",
+      "type": 0,
+      "text": "A corpse-worm that gets smarter with each brain it eats.",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "9Kk4c3Tjzf9HCYev",
+      "type": 0,
+      "text": "A cool looking duster jacket.",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "iyOsmOHqtBzZ16al",
+      "type": 0,
+      "text": "A tiny high pitched whistle. Distracts dogs but humans can’t hear it.",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d64",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "LlAoIJlUzPqMoa9N",
+  "flags": {
+    "better-rolltables": {
+      "tags": "",
+      "table-type": "none",
+      "table-currency-string": "",
+      "loot-amount-key": "",
+      "loot-actor-name": ""
+    },
+    "scene-packer": {
+      "sourceId": "RollTable.O5iZjTth2dW7HLZ9"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "description": "",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": null,
+    "modifiedTime": 1682130747575,
+    "lastModifiedBy": "vXMUP1QQ0n9dYSXl"
+  }
+}

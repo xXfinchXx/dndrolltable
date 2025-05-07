@@ -1,0 +1,1531 @@
+{
+  "name": "Wand of Random Spells",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Spell Targets the one that triggered the trap",
+  "results": [
+    {
+      "_id": "iMDczuoyCE6XmXDE",
+      "type": 0,
+      "text": "Acid Splash",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "5Ha9cFyMLnbvZdy2",
+      "type": 0,
+      "text": "Aganazzar's Scortcher (level 2 from XGtE)",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "QJU08Dsmnalb1KNC",
+      "type": 0,
+      "text": "Aid (cast on the creature being targeted)",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "q9ieswaWz8HOmAxl",
+      "type": 0,
+      "text": "Alter self (DM decides the effect)",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "mBbXL9CQrqhiDR9x",
+      "type": 0,
+      "text": "Antimagic Field",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hfUIHu4FldMQhIVG",
+      "type": 0,
+      "text": "Arcane Eye",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "UNUuRcesqpJF9X5b",
+      "type": 0,
+      "text": "Armor of Agathys (roll 1d8 for spell level)",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "gXibrYtMK0N4nZkD",
+      "type": 0,
+      "text": "Arms of Hadar(roll 1d8 for spell level)",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Zsy2UISsvaORni3b",
+      "type": 0,
+      "text": "Aura of life",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zaP3dp56WdqHJGmG",
+      "type": 0,
+      "text": "Aura if Vitality",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "BSbBQCIxqDvXrlP8",
+      "type": 0,
+      "text": "Bane (cast on the creature being targeted)",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "3mwOV074pyx7XtZM",
+      "type": 0,
+      "text": "Banishment",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "6dObxwhgQ9Wm0K2o",
+      "type": 0,
+      "text": "Barkskin (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "rum1WgFMgM0KSRvY",
+      "type": 0,
+      "text": "Beacon of Hope (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "YP6wLmFVPthLJev7",
+      "type": 0,
+      "text": "Bless (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "UTy09MImGPu8BySl",
+      "type": 0,
+      "text": "Blight",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "EfvzyMj5WUBdpWEa",
+      "type": 0,
+      "text": "Blindness/Deafness (roll a d4 1. Blinds the target 2. Deafens user 3. Blinds user 4. Blinds Target)",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "dGjEzdvBStM3dczH",
+      "type": 0,
+      "text": "Blink",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "8txs34elgpyDMSCG",
+      "type": 0,
+      "text": "Blur",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0LHymWSuHrRzw9b5",
+      "type": 0,
+      "text": "Calm Emotions",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "7xTDUEvQ6uUYhkW5",
+      "type": 0,
+      "text": "Chain Lightning",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "1tGiW3OWr7PmAktG",
+      "type": 0,
+      "text": "Charm Person",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Rlv6tZ0wc0jRUtct",
+      "type": 0,
+      "text": "Chromatic Orb (roll 1d8 for spell level) (Roll a d6 for type 1. acid 2. cold 3. fire 4. lightning 5. poison 6. Thunder)",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "A23DPO7FRmtGXvts",
+      "type": 0,
+      "text": "Cloud of daggers",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "itJ4o6DO88cuPqmT",
+      "type": 0,
+      "text": "Color Spray",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "7msfuk88Hy7ymrPt",
+      "type": 0,
+      "text": "Command",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "f5WDomB2HS8iHjUn",
+      "type": 0,
+      "text": "Conjure Animals (DM Chooses if its hostile and what it creates)",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "e0uRgvV1HAA2M0b7",
+      "type": 0,
+      "text": "Conjure Fey (DM Chooses if its hostile and what it creates)",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "g6hIBCNuj33Z5Smg",
+      "type": 0,
+      "text": "Contagion (self. Roll a d6 for effect number rolled corresponds to the list in spell description)",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "UpTIGOvY4UxFn9JK",
+      "type": 0,
+      "text": "Control Weather (Dm chooses effect based on the roll tables)",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "7f0OLuBwdQtYKUiD",
+      "type": 0,
+      "text": "Creation (Dm chooses)",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "5493wC8o1mczIxgn",
+      "type": 0,
+      "text": "Detect Good and Evil",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "LpuV0O7ynFbF73vP",
+      "type": 0,
+      "text": "Detect Magic",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vcZ54xZvKjAteRkf",
+      "type": 0,
+      "text": "Dimension door (Dm chooses where you end up)",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "cpkgo2DJPYI7AeMD",
+      "type": 0,
+      "text": "Disguise self (Dm Chooses what you look like)",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IYvgICYto4VNrTKy",
+      "type": 0,
+      "text": "Disintegrate",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "B9rRd5wAiAa5eXTc",
+      "type": 0,
+      "text": "Dispel Magic",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "CGCvNYvvhlYgBjub",
+      "type": 0,
+      "text": "Dominate Monster",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "KP76qg71vNOIOAFF",
+      "type": 0,
+      "text": "Dominate Person",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "biz3bzZ1N6pg09DC",
+      "type": 0,
+      "text": "Eldritch Blast",
+      "weight": 1,
+      "range": [
+        40,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "WafiEgu2d0ukrcL8",
+      "type": 0,
+      "text": "Enhance ability (self. Roll a d6 for effect number rolled corresponds to the list in spell description)",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ClgicTtfT8rnJsiW",
+      "type": 0,
+      "text": "Enhance ability (Target. Roll a d6 for effect number rolled corresponds to the list in spell description)",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "V1eSoHqC20DzAnWm",
+      "type": 0,
+      "text": "Enlarge/Reduce( Target, roll a d6 on even it enlarges, odd it reduces",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "DSilMRUeT9w7qnB2",
+      "type": 0,
+      "text": "Entangle",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "HHNmIoXlEJU0kgyc",
+      "type": 0,
+      "text": "False life (roll 1d8 for spell level)",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "zThjdoHlm9vOtTVE",
+      "type": 0,
+      "text": "Feeblemind (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "QcVHAXZACOnieRaU",
+      "type": 0,
+      "text": "Fireball",
+      "weight": 1,
+      "range": [
+        47,
+        47
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hpiup5c4j0xv12lo",
+      "type": 0,
+      "text": "Fireball It explodes immediately on the user",
+      "weight": 1,
+      "range": [
+        48,
+        48
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "3Tm78ikuOpH9YMzN",
+      "type": 0,
+      "text": "Flame Blade",
+      "weight": 1,
+      "range": [
+        49,
+        49
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "f94ETmlN970Bqs65",
+      "type": 0,
+      "text": "Flesh to stone",
+      "weight": 1,
+      "range": [
+        50,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "HAUggMe6AwVPupap",
+      "type": 0,
+      "text": "Fog Cloud",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "wSd3i312bVseBMYe",
+      "type": 0,
+      "text": "Fly (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "yvrBoVOTsoodXJ5Y",
+      "type": 0,
+      "text": "Freedom of movement (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "k9mldtWZO6mHKg7X",
+      "type": 0,
+      "text": "Gaseous Form (self)",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "M7zy7nxVibvDaEZf",
+      "type": 0,
+      "text": "Geas",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "QcVPHnmfB1ajQngC",
+      "type": 0,
+      "text": "Grasping VIne",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "YuOeDhxn8nVBSOig",
+      "type": 0,
+      "text": "Grease",
+      "weight": 1,
+      "range": [
+        57,
+        57
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "hZw0QIQmkSEfZfsC",
+      "type": 0,
+      "text": "Guidance (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        58,
+        58
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "fF8wrxhxlhUbHVVm",
+      "type": 0,
+      "text": "Haste (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        59,
+        59
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "IVTsGAhlCGoMGD5a",
+      "type": 0,
+      "text": "Heal (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        60,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "vjHBDxQzmV2acamF",
+      "type": 0,
+      "text": "Healing Word (Roll a d8 for spell level)(roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "kQbSYpIp20nqGpH7",
+      "type": 0,
+      "text": "Hex",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Dl4l1lO92LRDNAGs",
+      "type": 0,
+      "text": "Hold Monster",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Yf3QrR95yYv7UkaM",
+      "type": 0,
+      "text": "Hold Person",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "AVIRcaJi4DSZ2rIB",
+      "type": 0,
+      "text": "Hunters mark",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ofyPcwdpm25yBfj0",
+      "type": 0,
+      "text": "Hypnotic Pattern",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "64GXQjv1Sa3uBJSd",
+      "type": 0,
+      "text": "Insect Plague",
+      "weight": 1,
+      "range": [
+        67,
+        67
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "genuY1zNDiQ5J3x0",
+      "type": 0,
+      "text": "Invisibility (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        68,
+        68
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ZAqroxGoaOu0hOSo",
+      "type": 0,
+      "text": "Invulnerability (XGtE)",
+      "weight": 1,
+      "range": [
+        69,
+        69
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "S2CAOHFpJioT6xQh",
+      "type": 0,
+      "text": "Levitate (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        70,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0KPTzpd2kipIc6w7",
+      "type": 0,
+      "text": "Lightning Bolt",
+      "weight": 1,
+      "range": [
+        71,
+        71
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "YohmAv27kMfi8xkQ",
+      "type": 0,
+      "text": "Magic Jar",
+      "weight": 1,
+      "range": [
+        72,
+        72
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "BhZje2b8KkP0kTXc",
+      "type": 0,
+      "text": "Magic Missle",
+      "weight": 1,
+      "range": [
+        73,
+        73
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "xJxA1sT3FWs943XY",
+      "type": 0,
+      "text": "Meteor swarm",
+      "weight": 1,
+      "range": [
+        74,
+        74
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "WQKYyoAa9w9IRhjr",
+      "type": 0,
+      "text": "Mirror Image",
+      "weight": 1,
+      "range": [
+        75,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "HReM5xgEJ8O61kHG",
+      "type": 0,
+      "text": "Mordenkainen's Sword",
+      "weight": 1,
+      "range": [
+        76,
+        76
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "1lR2VJTDNVvVnxUI",
+      "type": 0,
+      "text": "Otto's Irresistible Dance",
+      "weight": 1,
+      "range": [
+        77,
+        77
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "SlwjSb3MLzOl1TYK",
+      "type": 0,
+      "text": "Polymorph (roll a d6 on even in affects the target on odd it affects the user)(Dm chooses the creature before rolling on who it affects)",
+      "weight": 1,
+      "range": [
+        79,
+        79
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "xGEtG9nd6bftyKpU",
+      "type": 0,
+      "text": "Phantasmal Killer",
+      "weight": 1,
+      "range": [
+        78,
+        78
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "PukWZVwapWY0rHOD",
+      "type": 0,
+      "text": "Power Word Stun",
+      "weight": 1,
+      "range": [
+        80,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "a5ikNp8ojhY2UpyU",
+      "type": 0,
+      "text": "Protection from energy (self, roll a d6 1.Acid 2. Cold 3. Fire 4. Lightning 5. Thunder 6. All, after spell ends you are vulnerable to those effects for 24 hours)",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Nm3PrfbjgCqNibRw",
+      "type": 0,
+      "text": "Ray of Enfeeblement",
+      "weight": 1,
+      "range": [
+        82,
+        82
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "BZYMOOAF84QcpFTq",
+      "type": 0,
+      "text": "Ray of Frost",
+      "weight": 1,
+      "range": [
+        83,
+        83
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "YLOWMpfI9hH5RSfv",
+      "type": 0,
+      "text": "Ray of Sickness ( roll 1d8 for spell level)",
+      "weight": 1,
+      "range": [
+        84,
+        84
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lqgzqetlmifzSCtI",
+      "type": 0,
+      "text": "Reverse Gravity",
+      "weight": 1,
+      "range": [
+        85,
+        85
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "5Jlh991ASB0jN3YC",
+      "type": 0,
+      "text": "Scorching Ray",
+      "weight": 1,
+      "range": [
+        86,
+        86
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "lwjro5hxtBwoRnNL",
+      "type": 0,
+      "text": "See Invisibility",
+      "weight": 1,
+      "range": [
+        87,
+        87
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "836QIs7TKrSgws06",
+      "type": 0,
+      "text": "Shatter",
+      "weight": 1,
+      "range": [
+        88,
+        88
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0YkwEhByYXh2Verl",
+      "type": 0,
+      "text": "Shield of Faith (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        89,
+        89
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "DzyVZFqACipGRJVW",
+      "type": 0,
+      "text": "Sleep (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        90,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "uJlJhap9sZNJljxW",
+      "type": 0,
+      "text": "Slow (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        91,
+        91
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "8K18f11meIditWwb",
+      "type": 0,
+      "text": "Stinking Cloud (roll a d6 on even in affects the target on odd it affects the user)",
+      "weight": 1,
+      "range": [
+        92,
+        92
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "QM2nrIbgLAsw4DoI",
+      "type": 0,
+      "text": "Summon Greater Demon (Dm chooses what is summoned)(XGtE)",
+      "weight": 1,
+      "range": [
+        93,
+        93
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ouFeWeQIln47fNkG",
+      "type": 0,
+      "text": "Summon Lesser Demon (Dm Chooses What is Summoned) (Roll a d6, 1-2. the demons attack anything 3-4. The Demon join the enemy side 5-6. Demon sides with you)(XGtE)",
+      "weight": 1,
+      "range": [
+        94,
+        94
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "jspJNa6udjo29jaW",
+      "type": 0,
+      "text": "Tasha's Hideous Laughter",
+      "weight": 1,
+      "range": [
+        95,
+        95
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "0SyB14LoJ7uUxJKs",
+      "type": 0,
+      "text": "True Ploymorph (Roll a d6 on a 1 it effects the user Dm decides the animal or object before the roll)",
+      "weight": 1,
+      "range": [
+        96,
+        96
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "d1B88uJWDPi5dXIk",
+      "type": 0,
+      "text": "Tsunami",
+      "weight": 1,
+      "range": [
+        97,
+        97
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "Zo0ky18ptN3jKX22",
+      "type": 0,
+      "text": "Wish",
+      "weight": 1,
+      "range": [
+        98,
+        98
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "xzcpHJBLEv8fYjl9",
+      "type": 0,
+      "text": "Witchbolt (roll 1d8 for spell level)",
+      "weight": 1,
+      "range": [
+        99,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    },
+    {
+      "_id": "ZvLVvvb37egG0qdO",
+      "type": 0,
+      "text": "The wand explodes into dust and is destroyed",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "documentCollection": "",
+      "documentId": null
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "KFbleWEyAAfOafHH",
+  "flags": {
+    "scene-packer": {
+      "hash": "01f22437924d980472a2384a66e3d5ad4ab03313",
+      "sourceId": "RollTable.6lQ7ZIxnWWQVs9bf"
+    },
+    "exportSource": {
+      "world": "chaos-crew",
+      "system": "dnd5e",
+      "coreVersion": "11.308",
+      "systemVersion": "2.3.1"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}
