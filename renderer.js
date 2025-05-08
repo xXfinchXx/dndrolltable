@@ -26,27 +26,27 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     });
   
-    createTableBtn.addEventListener('click', async () => {
-      const newTable = {
-        name: 'New Roll Table',
-        description: '',
-        formula: '1d20',
-        results: [],
-      };
-    
-      try {
-        const filePath = await window.api.saveRollTable(newTable);
-        alert(`New roll table created: ${filePath}`);
-    
-        await new Promise(resolve => setTimeout(resolve, 1000)); // Ensure the file saves
-        const updatedTables = await window.api.loadRollTables(true); // Pass a flag to force reload
-        refreshRollTables(updatedTables);
-        rollTableSelect.value = updatedTables.length - 1; // Select new table
-        displayTable(updatedTables[updatedTables.length - 1].data, updatedTables.length - 1);
-      } catch (error) {
-        alert(`Failed to create roll table: ${error.message}`);
-      }
-    });
+    //createTableBtn.addEventListener('click', async () => {
+    //  const newTable = {
+    //    name: 'New Roll Table',
+    //    description: '',
+    //    formula: '1d20',
+    //    results: [],
+    //  };
+    //
+    //  try {
+    //    //const filePath = await window.api.saveRollTable(newTable);
+    //    alert(`New roll table created: ${filePath}`);
+    //
+    //    await new Promise(resolve => setTimeout(resolve, 1000)); // Ensure the file saves
+    //    const updatedTables = await window.api.loadRollTables(true); // Pass a flag to force reload
+    //    refreshRollTables(updatedTables);
+    //    rollTableSelect.value = updatedTables.length - 1; // Select new table
+    //    displayTable(updatedTables[updatedTables.length - 1].data, updatedTables.length - 1);
+    //  } catch (error) {
+    //    alert(`Failed to create roll table: ${error.message}`);
+    //  }
+    //});
   
     function displayTable(table, index) {
       tablesContainer.innerHTML = '';
@@ -361,20 +361,35 @@ window.addEventListener('DOMContentLoaded', () => {
       editButton.textContent = 'Edit';
       editButton.addEventListener('click', async () => {
         const table = rollTables[index].data;
-        const tableId = table._id; // Use the `_id` value from the JSON
+        const tableId = table._id;
     
         if (!tableId) {
           alert('This table does not have a valid ID.');
           return;
         }
     
-        currentEditTableIndex = tableId; // Set the current edit table index to the `_id`
+        currentEditTableIndex = tableId;
     
         // Populate the edit modal fields
         document.getElementById('editTableTitle').value = table.name;
-        document.getElementById('editTableSummary').value = table.description || ''; // Allow editing description
+        document.getElementById('editTableSummary').value = table.description || '';
         document.getElementById('editTableFormula').value = table.formula;
         editResultsContainer.innerHTML = '';
+    
+        // Show modal immediately
+        editTableModal.style.display = 'block';
+        modalOverlay.style.display = 'block';
+    
+        // Force focus after modal is displayed
+        setTimeout(() => {
+          document.getElementById('editTableTitle').focus();
+          // Ensure all input fields are interactive
+          const inputs = editTableModal.querySelectorAll('input, textarea, select');
+          inputs.forEach(input => {
+            input.disabled = false;
+            input.style.pointerEvents = 'auto';
+          });
+        }, 0);
     
         for (const result of table.results) {
           const resultDiv = document.createElement('div');

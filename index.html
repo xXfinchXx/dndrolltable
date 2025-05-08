@@ -77,6 +77,13 @@
       background-color: #003f7f;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
+    #editTableModal input,
+    #editTableModal textarea,
+    #editTableModal select {
+      pointer-events: auto;
+      background-color: white;
+      border: 1px solid #ccc;
+    }
   </style>
 </head>
 <body>
@@ -96,11 +103,11 @@
   <div id="createTableModal">
     <h2>Create New Roll Table</h2>
     <label for="tableTitle">Title:</label>
-    <input type="text" id="tableTitle" placeholder="Enter table title" /><br />
+    <input type="text" id="tableTitle" tabindex="1" placeholder="Enter table title" /><br />
     <label for="tableSummary">Summary (supports HTML):</label>
-    <textarea id="tableSummary" placeholder="Enter table summary (e.g., <b>bold</b>, <i>italic</i>)"></textarea><br />
+    <textarea id="tableSummary" tabindex="2" placeholder="Enter table summary (e.g., <b>bold</b>, <i>italic</i>)"></textarea><br />
     <label for="tableFormula">Formula:</label>
-    <input type="text" id="tableFormula" placeholder="e.g., 1d20" /><br />
+    <input type="text" id="tableFormula" tabindex="3" placeholder="e.g., 1d20" /><br />
     <h3>Results</h3>
     <div id="resultsContainer">
       <div class="result">
@@ -136,11 +143,11 @@
   <div id="editTableModal">
     <h2>Edit Roll Table</h2>
     <label for="editTableTitle">Title:</label>
-    <input type="text" id="editTableTitle" placeholder="Enter table title" /><br />
+    <input type="text" id="editTableTitle" tabindex="1" placeholder="Enter table title" /><br />
     <label for="editTableSummary">Summary (supports HTML):</label>
-    <textarea id="editTableSummary" placeholder="Enter table summary (e.g., <b>bold</b>, <i>italic</i>)"></textarea><br />
+    <textarea id="editTableSummary" tabindex="2" placeholder="Enter table summary (e.g., <b>bold</b>, <i>italic</i>)"></textarea><br />
     <label for="editTableFormula">Formula:</label>
-    <input type="text" id="editTableFormula" placeholder="e.g., 1d20" /><br />
+    <input type="text" id="editTableFormula" tabindex="3" placeholder="e.g., 1d20" /><br />
     <h3>Results</h3>
     <div id="editResultsContainer" style="max-height: 300px; overflow-y: auto; border: 1px solid rgb(221, 221, 221); padding: 10px; margin-bottom: 10px; background: rgb(221, 221, 221);">
       <!-- Results will be dynamically added here -->
