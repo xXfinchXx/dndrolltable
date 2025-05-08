@@ -4,94 +4,88 @@
   "description": "A table of chaotic and unpredictable events that can occur in a dungeon.",
   "results": [
     {
-      "_id": "TZa1aU4FEldf2vqD",
-      "type": 1,
       "text": "Wand of Random Spells",
-      "img": "icons/weapons/wands/wand-gem-blue.webp",
-      "weight": 1,
       "range": [
         1,
         4
       ],
+      "weight": 1,
       "drawn": false,
-      "flags": {},
-      "documentCollection": "Macro",
-      "documentId": "YngyDfLufvYBwsTY"
+      "documentCollection": "RollTable",
+      "documentId": "roll-table-20250507123119",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     },
     {
-      "_id": "wxA7lPsKnn2dWjAW",
-      "type": 1,
       "text": "Potion of Greater Randomness",
-      "img": "4crlf174ih711.jpg",
-      "weight": 1,
       "range": [
         5,
         8
       ],
+      "weight": 1,
       "drawn": false,
-      "flags": {},
-      "documentCollection": "Macro",
-      "documentId": "teUyLT00PzzAmBiG"
+      "documentCollection": "RollTable",
+      "documentId": "roll-table-20250507123121",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     },
     {
-      "_id": "kXk2Df33JVJCDvca",
-      "type": 1,
       "text": "Staff of Randomness",
-      "img": "icons/weapons/staves/staff-engraved-wood.webp",
-      "weight": 1,
       "range": [
         9,
         12
       ],
+      "weight": 1,
       "drawn": false,
-      "flags": {},
-      "documentCollection": "Macro",
-      "documentId": "4GaA5s2QWIZ8DYD4"
+      "documentCollection": "RollTable",
+      "documentId": "imported-1746667477727.json",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     },
     {
-      "_id": "b1DHvI8dF6NBnwGR",
-      "type": 1,
       "text": "Dice of Random Events",
-      "img": "2108-large_default.jpg",
-      "weight": 1,
       "range": [
         13,
         16
       ],
+      "weight": 1,
       "drawn": false,
-      "flags": {},
-      "documentCollection": "Macro",
-      "documentId": "CUPxlVwNVgAo1b3B"
+      "documentCollection": "RollTable",
+      "documentId": "roll-table-20250507123138",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     },
     {
-      "_id": "aG2uJ5FUhyrfaHSJ",
-      "type": 1,
       "text": "Wand of Randomized Polymorph",
-      "img": "icons/weapons/wands/wand-gem-green.webp",
-      "weight": 1,
       "range": [
         17,
         17
       ],
+      "weight": 1,
       "drawn": false,
-      "flags": {},
-      "documentCollection": "Macro",
-      "documentId": "AzV9RG4uGlF0Dnsm"
+      "documentCollection": "RollTable",
+      "documentId": "roll-table-20250507123127",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     },
     {
-      "_id": "4CzXcFDD37fLe9yg",
-      "type": 1,
       "text": "The Dice of Randomness",
-      "img": "black-red-d20__27705.jpg",
-      "weight": 1,
       "range": [
         18,
         21
       ],
+      "weight": 1,
       "drawn": false,
-      "flags": {},
-      "documentCollection": "Macro",
-      "documentId": "hkipKA1EY2BWlsb9"
+      "documentCollection": "RollTable",
+      "documentId": "roll-table-20250507123126",
+      "spellId": null,
+      "equipmentId": null,
+      "magicItemId": null
     }
   ],
   "formula": "1d21",

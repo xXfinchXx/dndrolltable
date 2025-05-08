@@ -1,0 +1,188 @@
+{
+  "name": "Staff of Randomness",
+  "description": "Targets the one that triggered the trap",
+  "formula": "1d20",
+  "results": [
+    {
+      "text": "Target turns into a Nalfeshnee for 3 turns",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Restores 10 hit points to target",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of necrotic damage to target",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of fire damage to target",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Target turns into a bucket for 1 turn",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Blindness on target",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Banishment on target",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of lightning damage to target",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of radiant damage to target",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Target turns  invisible for 2 turns",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Charm Person on target",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Entangle on target",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of frost damage to target",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Darkness on target",
+      "range": [
+        14,
+        14
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Daylight on target",
+      "range": [
+        15,
+        15
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of force damage to target",
+      "range": [
+        16,
+        16
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Deals 2D4 of acid damage to target",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Target turns into an Abeloth for 3 turns",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Invulnerability on target",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "text": "Casts Disintegrate on target",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "drawn": false
+    }
+  ],
+  "_id": "imported-1746667477727"
+}
