@@ -26,28 +26,57 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     });
   
-    //createTableBtn.addEventListener('click', async () => {
-    //  const newTable = {
-    //    name: 'New Roll Table',
-    //    description: '',
-    //    formula: '1d20',
-    //    results: [],
-    //  };
-    //
-    //  try {
-    //    //const filePath = await window.api.saveRollTable(newTable);
-    //    alert(`New roll table created: ${filePath}`);
-    //
-    //    await new Promise(resolve => setTimeout(resolve, 1000)); // Ensure the file saves
-    //    const updatedTables = await window.api.loadRollTables(true); // Pass a flag to force reload
-    //    refreshRollTables(updatedTables);
-    //    rollTableSelect.value = updatedTables.length - 1; // Select new table
-    //    displayTable(updatedTables[updatedTables.length - 1].data, updatedTables.length - 1);
-    //  } catch (error) {
-    //    alert(`Failed to create roll table: ${error.message}`);
-    //  }
-    //});
-  
+    // Add button container after dropdown
+    const buttonContainer = document.createElement('div');
+    buttonContainer.style.marginTop = '10px';
+    buttonContainer.style.marginBottom = '20px';
+    
+    // Move the buttons here
+    const editButton = createEditButton(0); // Will update with selection
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete';
+    const cloneButton = document.createElement('button');
+    cloneButton.textContent = 'Clone';
+
+    buttonContainer.appendChild(editButton);
+    buttonContainer.appendChild(deleteButton);
+    buttonContainer.appendChild(cloneButton);
+
+    // Insert after dropdown
+    rollTableSelect.parentNode.insertBefore(buttonContainer, rollTableSelect.nextSibling);
+
+    // Update button handlers when selection changes
+    rollTableSelect.addEventListener('change', () => {
+      const selectedIndex = rollTableSelect.selectedIndex;
+      const selectedTable = rollTables[selectedIndex]?.data;
+      
+      editButton.onclick = () => createEditButton(selectedIndex).click();
+      deleteButton.onclick = () => {
+        if (selectedTable && confirm(`Are you sure you want to delete the roll table "${selectedTable.name}"?`)) {
+          window.api.deleteRollTableByName(selectedTable.name).then(() => {
+            alert('Roll table deleted successfully!');
+            rollTables.splice(selectedIndex, 1);
+            refreshRollTables(rollTables);
+            if (rollTables.length > 0) {
+              rollTableSelect.value = 0;
+              displayTable(rollTables[0].data, 0);
+            } else {
+              tablesContainer.innerHTML = '';
+            }
+          }).catch(error => alert(`Failed to delete roll table: ${error.message}`));
+        }
+      };
+      cloneButton.onclick = () => {
+        if (selectedTable) {
+          const clonedTable = { ...selectedTable, name: `${selectedTable.name} (Clone)` };
+          window.api.saveRollTable(clonedTable).then(() => {
+            alert('Roll table cloned successfully!');
+            location.reload();
+          });
+        }
+      };
+    });
+
     function displayTable(table, index) {
       tablesContainer.innerHTML = '';
       const tableDiv = document.createElement('div');
@@ -72,46 +101,64 @@ window.addEventListener('DOMContentLoaded', () => {
       });
       tableDiv.appendChild(rollButton);
   
-      const editButton = createEditButton(index);
-      tableDiv.appendChild(editButton);
-  
-      const deleteButton = document.createElement('button');
-      deleteButton.textContent = 'Delete';
-      deleteButton.addEventListener('click', () => {
-        const selectedIndex = rollTableSelect.selectedIndex; // Get the selected table index
-        const selectedTable = rollTables[selectedIndex]?.data;
+      // Add search functionality
+      const searchContainer = document.createElement('div');
+      searchContainer.style.display = 'inline-block';
+      searchContainer.style.marginLeft = '10px';
       
-        if (selectedTable && confirm(`Are you sure you want to delete the roll table "${selectedTable.name}"?`)) {
-          window.api.deleteRollTableByName(selectedTable.name).then(() => {
-            alert('Roll table deleted successfully!');
-            rollTables.splice(selectedIndex, 1); // Remove the deleted table from the list
-            refreshRollTables(rollTables); // Refresh the dropdown and UI
+      const searchInput = document.createElement('input');
+      searchInput.type = 'number';
+      searchInput.placeholder = 'Enter number';
+      searchInput.style.width = '80px';
       
-            // Automatically select the first table if available
-            if (rollTables.length > 0) {
-              rollTableSelect.value = 0;
-              displayTable(rollTables[0].data, 0);
-            } else {
-              tablesContainer.innerHTML = ''; // Clear the table display if no tables remain
-            }
-          }).catch(error => {
-            alert(`Failed to delete roll table: ${error.message}`);
-          });
+      // Find min and max values from table results
+      const minRange = Math.min(...table.results.map(r => r.range[0]));
+      const maxRange = Math.max(...table.results.map(r => r.range[1]));
+      
+      // Set input constraints
+      searchInput.min = minRange;
+      searchInput.max = maxRange;
+      searchInput.placeholder = `${minRange}-${maxRange}`;
+      
+      // Add validation on input
+      searchInput.addEventListener('input', (e) => {
+        const value = parseInt(e.target.value);
+        if (value < minRange || value > maxRange) {
+          searchInput.setCustomValidity(`Please enter a number between ${minRange} and ${maxRange}`);
+        } else {
+          searchInput.setCustomValidity('');
         }
       });
-      tableDiv.appendChild(deleteButton);
+      
+      searchContainer.appendChild(searchInput);
   
-      const cloneButton = document.createElement('button');
-      cloneButton.textContent = 'Clone';
-      cloneButton.addEventListener('click', () => {
-        const clonedTable = { ...table, name: `${table.name} (Clone)` };
-        window.api.saveRollTable(clonedTable).then(() => {
-          alert('Roll table cloned successfully!');
-          location.reload(); // Reload to reflect the new cloned table
-        });
+      const searchButton = document.createElement('button');
+      searchButton.textContent = 'Player Rolled';
+      searchButton.addEventListener('click', () => {
+        const searchValue = parseInt(searchInput.value);
+        if (isNaN(searchValue) || searchValue < minRange || searchValue > maxRange) {
+          alert(`Please enter a number between ${minRange} and ${maxRange}`);
+          return;
+        }
+        
+        const result = table.results.find(r => 
+          searchValue >= r.range[0] && searchValue <= r.range[1]
+        );
+  
+        if (result) {
+          const resultDiv = document.createElement('div');
+          resultDiv.className = 'roll-result';
+          resultDiv.textContent = `Player Roll ${searchValue}: ${result.text}`;
+          tableDiv.appendChild(resultDiv);
+        } else {
+          alert(`No result found for roll value: ${searchValue}`);
+        }
       });
-      tableDiv.appendChild(cloneButton);
+      searchContainer.appendChild(searchButton);
+      
+      tableDiv.appendChild(searchContainer);
   
+      // Remove the old button appends since they're now above
       tablesContainer.appendChild(tableDiv);
     }
   
