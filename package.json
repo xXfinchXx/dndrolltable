@@ -1,6 +1,6 @@
 {
   "name": "dnd-roll-tables",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "DnD Roll Tables Application",
   "main": "main.js",
   "author": "Richard Phillips",
